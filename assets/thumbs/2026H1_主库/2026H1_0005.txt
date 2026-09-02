@@ -1,0 +1,2 @@
+﻿[IMG: image5.jpeg]
+{argument name="角色" default="虞姬"}游戏辅助设定，{argument name="技能效果" default="剑舞旋风控制技能，虞美人花朵特效"}

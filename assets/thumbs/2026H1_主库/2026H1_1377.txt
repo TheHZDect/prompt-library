@@ -1,0 +1,38 @@
+﻿[IMG: image1833.jpeg]
+{
+"prompt_structure": {
+"subject": {
+"core": "一位 20 多岁末的迷人女性，自信地走在都市中，步态优雅。",
+"details": "法式时尚风格，蓬松的棕色波波头，自然妆容凸显高颧骨。嘴角带着一丝自信的微笑，目光略微偏离镜头。",
+"emotion": "不费吹灰之力的酷感、自信、都市魅力。"
+},
+"apparel_and_texture": {
+"outfit": "高级时装秋季叠穿。一件炭灰色粗花呢迷你裙，搭配厚实的抛光皮革作战靴（例如 Doc Martens 风格）。一件燕麦色超大羊绒针织毛衣，部分塞入裙中，肩上披着一件剪裁合体的黑色羊毛大衣。",
+"materials": "对比鲜明的材质：粗花呢羊毛、柔软羊绒、硬挺抛光皮革、飘逸的大衣面料。",
+"tactile_details": "清晰可见的针织图案、靴子皮革上的磨损痕迹、大衣面料的垂坠感、一个带有黄铜五金件的设计师款皮革斜挎包。"
+},
+"scene_composition": {
+"framing": "街头抓拍风格，三分法构图，主体略微偏离中心以捕捉动态。",
+"camera_angle": "略微低角度，稍微向上仰拍，以强调她有力的步伐和靴子。",
+"depth": "浅景深，主体清晰对焦，都市背景呈现美丽的焦外虚化效果。"
+},
+"location_and_atmosphere": {
+"place": "{argument name=\"city\" default=\"Paris, France\"}。玛莱区。",
+"historical_elements": "鹅卵石街道（pavés）、经典的 17 世纪石灰岩立面，带有华丽的铁艺阳台，背景中是复古咖啡馆的座位。",
+"weather_and_particles": "清爽的秋日空气，人行道上散落着几片棕色落叶。地面因早前的雨水而略显潮湿，形成倒影。",
+"time_of_day": "黄金时段。低垂温暖的阳光从她身后照亮头发，并在街道上投下长长的影子。"
+},
+"cinematography_and_tech": {
+"camera_gear": "徕卡 M10-R 旁轴相机，搭配 Summilux-M 50mm f/1.4 ASPH 镜头。",
+"lighting_setup": "落日提供的自然逆光，辅以巴黎石灰岩建筑反射的环境光。",
+"color_grading": "柯达 Portra 400 胶片模拟。暖色调，丰富的绿色和棕色，自然的皮肤纹理，带有细微颗粒感。",
+"resolution": "8k，屡获殊荣的街头风格摄影，高度细节化。"
+},
+"midjourney_parameters": {
+"ar": "--ar 2:3",
+"stylize": "--s 650",
+"chaos": "--c 12",
+"style": "--style raw"
+}
+}
+}

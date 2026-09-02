@@ -1,0 +1,33 @@
+﻿[IMG: image478.jpeg]
+2x2 网格，16:9，针对历史上 4 台著名的复杂机器执行此操作：
+{
+"@type": "VisualRepresentation",
+"name": "[$SUBJECT] 的多尺度景观",
+"artDirection": "超现实 3D，纳米级宏观照明，社论布局",
+"subjectOf": {
+"@type": "ComplexSystem",
+"name": "[$SUBJECT]",
+"hasPart": [
+{
+"@type": "MacroStructure",
+"description": "最外层边界/包络的语义推断",
+"renderStyle": "超逼真表面摄影",
+"uiAnnotation": "带有材质/表面属性的浮动标签"
+},
+{
+"@type": "MesoStructure",
+"description": "内部机械/结构的语义推断",
+"renderStyle": "CAD 爆炸切面图",
+"uiAnnotation": "带有结构对称性/工程公差的浮动标签"
+},
+{
+"@type": "MicroStructure",
+"description": "原始代码/基因组/原子晶格的语义推断",
+"renderStyle": "发光的抽象数据向量",
+"uiAnnotation": "带有数学/遗传序列的浮动标签"
+}
+]
+},
+"visualConnectors": "连接各层的能量转换和点状组装路径",
+"background": "带有大气雾气的深色摄影棚背景"
+}

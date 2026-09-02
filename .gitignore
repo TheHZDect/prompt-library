@@ -1,0 +1,29 @@
+# 本仓库刻意不含原图与可重建的大文件产物。以下规则多为防御性，防止日后误加。
+
+# 检索库与中间产物（都可用 tools/rebuild_db.py 从 data/ 重建）
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+.cache/
+lib/
+cases.json
+df_terms.db
+
+# 原图：21.5 GB，永不进库（仓库只带缩略图）
+**/media/
+素材库/
+
+# Python / 系统噪声
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 本地临时与探针
+*.tmp
+_probe/
+*.log

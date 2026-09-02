@@ -1,0 +1,8 @@
+{
+ "cases": 11966,
+ "labeled": 11966,
+ "families": 27,
+ "batches": 170,
+ "thumbs": 12738,
+ "note": "原图与 prompts.db 不入库；clone 后跑 tools/rebuild_db.py 重建 .cache/"
+}

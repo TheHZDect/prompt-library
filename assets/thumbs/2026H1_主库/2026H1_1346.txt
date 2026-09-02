@@ -1,0 +1,90 @@
+﻿[IMG: image1790.jpeg]
+{
+"generation_request": {
+"meta_data": {
+"tool": "NanoBanana Pro",
+"task_type": "photoreal_fashion_editorial_window_pose",
+"version": "v1.0_YELLOW_HOUSE_WINDOW_GIRL_WHITE_SATIN",
+"priority": "highest"
+},
+"references": {
+"reference_image_1": {
+"source": "UPLOAD_REFERENCE_IMAGE",
+"purpose": "POSE_AND_COMPOSITION_LOCK",
+"strict_lock": true,
+"match_reference_priority": "MAX",
+"preserve_window_frame": true,
+"preserve_leg_position": true,
+"preserve_body_angle": true,
+"preserve_camera_distance": true,
+"no_style_drift": true
+},
+"reference_image_2": {
+"source": "UPLOAD_FACE_REFERENCE (OPTIONAL)",
+"purpose": "FACE_IDENTITY_LOCK",
+"strict_lock": true,
+"face_similarity_priority": "MAX",
+"no_identity_blending": true,
+"no_beautify": true,
+"no_age_shift": true,
+"preserve_skin_texture": true,
+"preserve_facial_proportions": true
+}
+},
+"creative_direction": {
+"concept": "一个俏皮的时尚大片瞬间：一位年轻女性随意地坐在一栋黄色房屋的开放窗户内，一条腿向外抬起，被捕捉为一张干净、现代的生活方式照片。",
+"mood": "清新、无忧无虑、时尚、青春",
+"style_keywords": "欧洲街头风格、俏皮的女性气质、极简主义时尚大片"
+},
+"scene": {
+"location": "住宅外部",
+"architecture": {
+"house_color": "{argument name=\"house color\" default=\"soft warm yellow\"} 外墙",
+"window": "简单的矩形窗户，配有白色内墙",
+"background": "干净、整洁、阳光充足的墙壁"
+},
+"time": "中午",
+"lighting": "直射自然阳光，清晰的阴影"
+},
+"subject": {
+"gender": "女性",
+"pose": {
+"position": "坐在窗框内",
+"legs": "一条腿向外伸展并抬起，另一条腿放松",
+"arms": "一只手臂自由地垂在窗外"
+},
+"expression": "中性到平静，放松的自信",
+"gaze": "向前看或稍微侧视"
+},
+"wardrobe": {
+"dress": {
+"type": "白色缎面吊带裙",
+"style": "细肩带、极简、飘逸面料",
+"length": "中长款",
+"finish": "柔和的缎面光泽"
+},
+"headphones": {
+"type": "头戴式",
+"color": "纯白色",
+"style": "干净、现代、极简"
+},
+"shoes": {
+"type": "平底或低跟鞋",
+"color": "白色",
+"style": "简约、优雅"
+}
+},
+"accessories": {
+"flowers": {
+"type": "新鲜的 {argument name=\"flower color\" default=\"yellow\"} 鲜花",
+"placement": "松散地握在一只手中",
+"look": "自然、略带野性的花束"
+}
+},
+"photography": {
+"camera_style": "时尚大片街头摄影",
+"lens": "35mm",
+"framing": "主体居中，全身"
+}
+}
+}

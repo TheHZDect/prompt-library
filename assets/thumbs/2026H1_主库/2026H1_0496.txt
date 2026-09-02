@@ -1,0 +1,9 @@
+﻿[IMG: image558.jpeg]
+一位成年东方幻想系女性角色，3D CG 高精度渲染风格，半身到大腿构图，人物坐在明亮柔和的室内沙发边缘，身体微微前倾，姿态自然优雅，气质妩媚但高级克制，突出女性柔美曲线、肩颈线条、锁骨轮廓、纤细腰身与优雅腰臀比例。
+她拥有精致柔和的东方五官，白皙细腻的肌肤，肤质通透带柔和高光，眼神安静迷离，表情清冷、温柔、略带诱惑感。黑色短发微乱蓬松，发丝细节丰富，佩戴黑色猫耳与细长猫尾，整体带有轻微幻想感与猫系气质。
+她身穿黑色亮面皮革 / 乳胶质感紧身连体衣，服装贴合身体曲线，肩带细窄，领口低但保持高级审美，胸前有精致褶边与小型金属装饰，搭配黑色长手套和细颈圈，材质呈现真实反光、高光、褶皱与拉伸纹理，整体具有高端时尚写真感。
+场景为明亮的白色欧式房间，大窗户透入柔和自然光，背景干净、浅色、虚化，沙发与抱枕作为柔和陪衬。光线从窗边斜射进入，形成细腻的轮廓光与皮革高光，画面氛围柔和、梦幻、精致。
+3D CG character render, high-end fantasy fashion portrait, realistic skin shader, glossy black latex material, cinematic soft lighting, subsurface scattering, detailed hair strands, elegant feminine beauty, delicate facial features, premium editorial composition, shallow depth of field, ultra detailed, 8K, Octane render, Unreal Engine, global illumination, soft bloom, realistic fabric wrinkles, refined luxury aesthetic.
+负面提示词：
+低清晰度，粗糙建模，塑料皮肤，肢体畸形，手指错误，脸部崩坏，眼睛不对称，过度暴露，低俗色情，廉价网红感，背景杂乱，暗沉灰蒙，过度锐化，过曝，油腻皮肤，服装破损，文字，水印，logo，模糊。
+将宽高比设为 9:16

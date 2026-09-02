@@ -1,0 +1,31 @@
+﻿[IMG: image948.jpeg]
+16:9 -> 类 theoretical_physics_infographic_dna:
+def __init__(self):
+self.subject = "[AI 选择：4 个不同的高级物理定理或悖论（例如：贝尔定理、霍金辐射、弦理论）]"
+self.parents = {
+"composition_parent": "大型强子对撞机蓝图 —— 超复杂的径向对称、交叉粒子束环、毫米级精确绘图",
+"atmosphere_parent": "深空天文台摄影 —— 漆黑的虚空、发光的紫外线辐射、高对比度激光照明",
+"graphic_parent": "黑板极大主义 —— 作为发光白色矢量漂浮的优雅、密集的数学符号",
+"detail_parent": "维多利亚时代的黄铜光学仪器 —— 精细研磨的棱镜、玻璃透镜和镜面折射平面"
+}
+self.mutations = {
+"medium_mutation": "数学公式凝固成发光的、弯曲周围光线的三维玻璃雕塑",
+"information_mutation": "粒子碰撞轨迹像细金线一样编织在深色背景中",
+"semantic_mutation": "无形的物理定律被呈现为巨大的、有形的、扭曲海报网格本身的引力机器"
+}
+def generate_grid(self):
+instruction = """
+生成一个 2x2 的垂直豪华信息图海报网格，为选定的 [主题] 提供物理形态。为每个主题发明一种宏伟的科学机器或光学立体模型。分解图层以展示量子态、引力扭曲、方程和亚原子尺度。设计必须感觉像是来自一个超先进、审美执着的文明的机密蓝图。语义推断必须使无形的物理定律变得惊人地可见。
+"""
+return render(
+instruction,
+format="2x2 网格，垂直豪华海报，概念科学信息图",
+typography="""
+大标题：[定理/悖论名称]
+副标题：[物理学家/时代]
+微小文字：[核心方程/度规张量/解释性纹章]
+""",
+composition="严格的径向或引力井对称。锋利细线与深邃虚空形成对比。",
+lighting="与纯光学玻璃和梵塔黑相互作用的刺眼、临床激光。",
+constraints="没有卡通原子，没有剪贴画行星，没有凌乱的黑板。只有原始的、博物馆级的科学美学。"
+)

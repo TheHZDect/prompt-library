@@ -1,0 +1,50 @@
+﻿[IMG: image318.jpeg]
+{
+"image": {
+"main_description": "一个轻松舒适的生活场景，画面中人物躺在床上，一条腿垂直伸向空中，正在读一本粉色书，旁边还有一只灰猫。",
+"characters": {
+"main_reference_character": {
+"identity_anchor": "根据提供的参考照片塑造的人物，严格保留用户提供的身份来源。",
+"ethnicity_and_phenotype": "由用户提供的参考照片决定。",
+"face_and_skin": "皮肤质感和光线互动与场景保持一致，但面部特征严格来源于参考照片。",
+"expression": "微表情与输入风格图像匹配，尽管脸部大部分被书遮挡。",
+"hair": "头发散开，自然地铺在白色枕头上。",
+"body_and_pose": "仰卧在床上。右腿笔直地垂直伸向天花板，脚趾向上；左腿放松。双手捧着一本打开的粉色书放在脸前。",
+"outfit": "一件超大号白色圆领运动衫。白色罗纹袜，右袜袜口附近有一个小小的牛油果刺绣。"
+},
+"supporting_characters": [
+{
+"role": "宠物伴侣",
+"description": "一只毛茸茸的英国短毛猫，纯灰色/蓝色皮毛，明亮的琥珀色眼睛。",
+"interaction": "在前景凌乱的白色羽绒被上行走，直视镜头。"
+}
+]
+},
+"text_elements": {
+"content": "{argument name=\"wall text\" default=\"hello\"}",
+"typography": "黑色草书线条艺术风格。",
+"placement": "安装在米色墙壁上，位于床头板正上方。",
+"integration": "实体墙面装饰物。"
+},
+"environment": {
+"location": "一间现代简约的卧室。",
+"elements": "一个高大的米色天鹅绒簇绒床头板。凌乱的白色床单和羽绒被。一个黑白方格枕头。墙上电线标志上方有一个小小的金色太阳爆发镜。",
+"atmosphere": "放松、居家、慵懒的周日早晨氛围。"
+},
+"cinematography": {
+"lighting_setup": "柔和的自然日光从左侧射入，在墙壁和床上用品上形成柔和的渐变。",
+"color_grading": "柔和的中性色调（奶油色、白色、米色），点缀着柔和的粉色和灰色。",
+"shadows_and_highlights": "柔和、漫射的阴影，表明有大窗户采光。",
+"reflections": "墙上的小镜子有微妙的反射。"
+},
+"camera_and_tech": {
+"framing": "中景镜头，视线水平，捕捉到腿部的完整垂直伸展和床的宽度。",
+"optics": "主体和猫咪对焦清晰，标准焦距。",
+"visual_fidelity": "高分辨率社交媒体生活方式摄影。"
+},
+"style_and_mood": {
+"aesthetic": "Instagram 美学、舒适核心、干净女孩美学。",
+"emotio": "轻松、舒适、宁静。"
+}
+}
+}

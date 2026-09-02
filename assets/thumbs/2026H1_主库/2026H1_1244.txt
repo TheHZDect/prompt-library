@@ -1,0 +1,31 @@
+﻿[IMG: image1640.jpeg]
+{
+"prompt_structure": {
+"subject": {
+"name": "{argument name=\"subject name\" default=\"Ana de Armas\"}",
+"appearance": "优雅、精致、涂着红色口红、头发盘成经典发髻",
+"clothing": "海军蓝无肩带缎面晚礼服、多股珍珠项链、透明黑色蕾丝歌剧手套、复古个性耳环"
+},
+"action": {
+"pose": "坐在咖啡馆的桌旁，手持一个复古的绿色金色茶杯，茶杯靠近肩膀高度，面朝镜头之外，表情沉思",
+"hand_position": "戴着手套的双手轻柔地握着杯柄"
+},
+"scene_elements": {
+"foreground": "大理石桌面、银色摩卡壶咖啡机、一盘撒有糖粉的新鲜羊角面包",
+"background": "模糊的复古豪华咖啡馆内部、暖米色调、经典建筑",
+"props": "金色边框的绿色浓缩咖啡杯、银色咖啡壶"
+},
+"technical_specs": {
+"lighting": "柔和漫射的自然窗光、温暖的电影光泽、黄金时段氛围",
+"camera": "85mm 人像镜头、浅景深、面部清晰对焦",
+"style": "高级时装编辑、时尚杂志美学、老好莱坞魅力、超现实、8k 分辨率、高度精细的纹理"
+},
+"parameters": {
+"aspect_ratio": "--ar 9:16",
+"resolution": "高清晰度",
+"quality": "--q 2",
+"stylize": "--s 750"
+}
+},
+"full_prompt_string": "{argument name=\"subject name\" default=\"Ana de Armas\"} 坐在一家复古咖啡馆里，身穿海军蓝无肩带缎面礼服和黑色蕾丝手套，手持一个绿色茶杯，戴着珍珠项链，涂着红色口红，桌上放着银色摩卡壶和羊角面包，老好莱坞魅力，电影灯光，超现实，8k，编辑摄影 --ar 9:16 --stylize 750"
+}

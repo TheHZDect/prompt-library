@@ -1,0 +1,113 @@
+﻿[IMG: image18.jpeg]
+FORMAT:
+4:5 垂直社交海报，超高分辨率，8K
+SCENE / BACKGROUND:
+纯平竞速黄带有微妙渐变（浅 → 深琥珀色）
+颗粒纹理 2–3%
+柔和的矩形叠加层，不透明度 3%
+PRODUCT:
+保时捷 911 GT3 RS
+光泽黄搭配碳纤维细节
+后部 3/4 角度，轻微抬高
+尾翼突出
+Position:
+偏右居中
+TYPOGRAPHY:
+“PORSCHE”
+超高、紧凑、拉伸
+深炭灰色
+Secondary:
+“PORSCHE 911 GT3 RS”
+EDITORIAL:
+“保时捷 — 精准与激情的交汇”
+Focus:
+工程，执念，赛道基因
+FADED TEXT:
+“GT3 RS” 3–5% 不透明度
+SPECS:
+386 kW / 525 PS
+3.2 s
+296 km/h
+LIGHTING:
+干净的工作室，锐利的高光
+MOOD:
+精准。
+标志性。
+永恒的性能。
+FORMAT:
+4:5 垂直社交海报，超高分辨率，8K，印刷级锐度
+SCENE / BACKGROUND:
+纯平、高饱和度的宝马蓝背景
+Gradient:
+顶部 → 略浅的电光蓝
+底部 → 深海军蓝
+Surface:
+- 微妙的颗粒纹理（2–3%）
+- 隐约的矩形叠加层（2–4% 不透明度）
+- 干净、图形化 — 无写实感
+Shadow:
+车底柔和的接触阴影
+PRODUCT (CAR):
+宝马 M4 CSL
+Color:
+哑光冰冻蓝 / 深金属海军蓝
+Angle:
+后部 3/4 透视（重要 — 与保时捷角度保持一致）
+摄像机轻微抬高
+Position:
+偏右居中
+Details:
+- 可见的碳纤维车顶
+- 具有攻击性的扩散器
+- 锐利的反射
+- 微妙的刹车细节
+COMPOSITION:
+与保时捷相同：
+顶部 → 品牌标识
+中部 → 巨型文字
+中心 → 汽车重叠
+底部 → 编辑排版 + 规格
+TYPOGRAPHY:
+PRIMARY:
+“BMW”
+Style:
+超紧凑粗体无衬线字体
+高垂直缩放（与保时捷相同）
+Color:
+深海军蓝 / 接近黑色
+Behavior:
+静态（无扭曲 — 与之前的版本不同）
+作为结构背景
+SECONDARY HEADER:
+“BMW M4 CSL”
+细体，宽字距
+LOGO AREA:
+宝马圆形车标居中于上方
+EDITORIAL BLOCK:
+Headline:
+“宝马 — 驾驶成为本能之处”
+Body:
+重点关注：
+- 驾驶者连接
+- 控制
+- 性能精准度
+方框布局，与保时捷结构相同
+FADED TEXT:
+“CSL” 大尺寸，在方块后方 3–5% 不透明度
+BOTTOM LEFT:
+“M4 CSL”
+BOTTOM RIGHT SPECS:
+405 kW / 550 PS
+3.4 s
+307 km/h
+LIGHTING:
+干净的工作室照明
+锐利但受控的高光
+COLOR GRADING:
+深蓝色，高对比度，干净的黑场
+CAMERA:
+50mm，轻微抬高的后部 3/4 视角
+MOOD:
+性能。
+精准。
+驾驶者专注。

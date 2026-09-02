@@ -1,0 +1,73 @@
+﻿[IMG: image1616.jpeg]
+{
+"generation_request": {
+"meta_data": {
+"tool": "NanoBanana Pro",
+"task_type": "photoreal_cinematic_romantic_fine_art_editorial",
+"version": "v1.1_GALLERY_FRAME_COUPLE_LIFT_EMBRACE_YELLOW_HALTER_SATIN",
+"priority": "highest"
+},
+"references": {
+"reference_image_1": {
+"source": "UPLOAD_REFERENCE_IMAGE",
+"purpose": "POSE_COMPOSITION_LIGHTING_REFERENCE",
+"strict_lock": true,
+"match_reference_priority": "MAX",
+"preserve_pose_geometry": true,
+"preserve_framing_and_cropping": true,
+"preserve_background_structure": true,
+"preserve_mood_and_lighting": true,
+"no_style_drift": true
+},
+"reference_image_2": {
+"source": "UPLOAD_FACE_REFERENCE (OPTIONAL)",
+"purpose": "FACE_IDENTITY_LOCK_FEMALE",
+"strict_lock": true,
+"face_similarity_priority": "MAX",
+"no_identity_blending": true,
+"no_beautify": true,
+"no_age_shift": true,
+"preserve_skin_texture": true,
+"preserve_facial_proportions": true
+},
+"reference_image_3": {
+"source": "UPLOAD_FACE_REFERENCE (OPTIONAL)",
+"purpose": "FACE_IDENTITY_LOCK_MALE",
+"strict_lock": true,
+"face_similarity_priority": "MAX",
+"no_identity_blending": true,
+"no_beautify": true,
+"no_age_shift": true,
+"preserve_skin_texture": true,
+"preserve_facial_proportions": true
+}
+},
+"creative_direction": {
+"concept": "一个电影般的博物馆画廊浪漫场景：一对情侣亲密地拥抱并被举起，姿势优雅，置身于一幅大型华丽画框古典风景画前。高端时尚编辑风格，戏剧化却不失优雅。女人穿着一件引人注目的 {argument name=\"dress color\" default=\"yellow\"} 黄色缎面露背吊带长裙，系于颈后，搭配同色系黄色高跟鞋。",
+"mood": "亲密、奢华、永恒、艺术电影感",
+"style_keywords": "古典大师氛围、博物馆灯光、浪漫张力、电影剧照"
+},
+"scene": {
+"location": "博物馆/画廊内部",
+"background": {
+"hero_object": "一幅带有华丽金色画框的古典风景画",
+"wall": "暖棕色画廊墙壁",
+"lower_wall": "白色护墙板/墙裙",
+"floor": "深色暖木地板"
+},
+"composition": "全身垂直构图，情侣居中，画作占据大部分背景"
+},
+"subjects": {
+"male": {
+"wardrobe": "黑色西装、黑色西裤、黑色皮鞋",
+"pose": "站立，托举女人的腰部/大腿，姿态稳健，仰视她的脸"
+},
+"female": {
+"wardrobe": {
+"dress": "黄色丝缎露背吊带长裙，颈部系带（系于颈后），修身胸衣，优雅垂坠，微妙光泽，高级时装质感",
+"fabric_notes": "逼真的缎面高光，柔软褶皱，高级定制工艺"
+}
+}
+}
+}
+}

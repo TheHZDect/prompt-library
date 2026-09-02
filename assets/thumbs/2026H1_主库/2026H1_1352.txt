@@ -1,0 +1,83 @@
+﻿[IMG: image1798.jpeg]
+{
+"task_configuration": {
+"type": "生成",
+"sub_type": "商业生活方式摄影",
+"reference_logic": "严格保留输入服装",
+"aesthetic": "高端时尚大片",
+"output_quality": "高分辨率写实"
+},
+"subject_definition": {
+"identity": {
+"demographic": "白人美国女性模特",
+"physique": "健美",
+"appearance": "美丽，自然造型"
+},
+"skin_and_features": {
+"realism_rule": "宏观层面的人体写实；无人工平滑或滤镜",
+"texture_details": [
+"可见的自然毛孔",
+"轻微的瑕疵和不完美",
+"眼周/嘴角柔和的表情纹",
+"鼻梁/脸颊上淡淡的雀斑",
+"自然的皮肤高光和次表面散射"
+],
+"makeup": "极简，自然或素颜妆容"
+},
+"attire_constraints": {
+"source": "来自输入参考图片的服装",
+"preservation_rules": [
+"精确的染色和图案",
+"精确的织物编织和纹理",
+"精确的缝线细节",
+"精确的合身度、垂坠感和身体轮廓"
+],
+"modification_permission": "无"
+},
+"pose": {
+"framing": "全身站立",
+"style": "自然、放松、自信",
+"orientation": "面向镜头展示服装正面"
+}
+},
+"environment_definition": {
+"location_type": "户外城市人行道",
+"specific_context": "时尚咖啡馆或匠心建筑立面外",
+"contextual_logic": "建筑和装饰必须在视觉上与参考服装的风格相辅相成",
+"atmosphere": "高雅、真实的城市生活、电影质感",
+"background_elements": [
+"有纹理的建筑材料（砖、石、木）",
+"咖啡馆座位或花箱",
+"路面纹理"
+]
+},
+"composition_and_layout": {
+"camera_principles": [
+"商业时尚标准",
+"主体符合黄金比例构图",
+"以产品为中心的焦点",
+"网格对齐"
+],
+"framing_scale": "宽幅全身照（从头到脚）",
+"spatial_margins": {
+"top_margin": "头部上方留有充足的空白区域，以便可能添加文字/裁剪",
+"side_margins": "平衡的空白区域",
+"bottom_margin": "脚部下方留有空白区域"
+}
+},
+"lighting_and_optics": {
+"source": "自然日光",
+"quality": "柔和、漫射的阳光或开放式阴影",
+"color_temperature": "暖色调",
+"shadows": "干净、自然的阴影过渡，勾勒出形态，无生硬感"
+},
+"constraints_and_prohibitions": {
+"must_not_render": [
+"磨皮",
+"塑料质感",
+"影棚背景",
+"修改过的服装设计",
+"过度摆拍"
+]
+}
+}

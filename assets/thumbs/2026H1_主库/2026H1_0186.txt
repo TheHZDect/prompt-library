@@ -1,0 +1,98 @@
+﻿[IMG: image202.jpeg]
+{
+"type": "9:16 竖版山海经神兽九宫格摄影海报，国家地理杂志特辑视觉",
+"aspect_ratio": "9:16",
+"style": "National Geographic editorial wildlife photography aesthetic，每格为独立的高分辨率自然摄影作品拼合，super photorealistic，telephoto wildlife shots，真实自然光，可信生态环境，避免任何 CGI 或插画感，整体像一本《国家地理》中文版特刊跨页",
+"background": "整体背景为深炭灰色 #1A1A1A 哑光纸质感，承托 9 格独立摄影作品，营造杂志暗版印刷的高级感",
+"color_palette": "炭黑底 + 各格摄影呈现自然环境真实色彩（晨雾灰蓝、黄昏暖橙、苔藓绿、雪原冷白、夜林墨黑），文字以暖白与暗金为主",
+"layout": {
+"top_masthead": {
+"magazine_logo": "顶部居中细衬线英文刊头 'SHANHAIJING SPECIAL ISSUE'，下方一行金色细线",
+"main_title": "其下大号宋体中文主标题《山海经·神兽实录》，墨白色",
+"subtitle_en": "再下一行小号衬线英文副标题 'Nine Mythical Beasts Captured in the Wild · A Field Documentation'",
+"issue_meta": "右上角小字 'Vol. 09 / 2026'，左上角小字 '中文版特辑'"
+},
+"grid_3x3": {
+"count": 9,
+"panel_treatment": "每格为独立矩形摄影作品，无边框直接拼合，格与格之间留 8px 黑色缝隙形成网格秩序；每格摄影占满，下方半透明黑色信息条叠加（约占该格 18% 高度），含中文名、拉丁学名、出处一行",
+"items": [
+{
+"id": "No.01",
+"shot_description": "黎明青丘山竹林深处的远摄野生动物作品，一只狐形生物半身从竹林后探出，警觉回头直视镜头，琥珀色双眸有真实瞳孔反光与湿润感，毛色雪白略带象牙暖调，根根分明的毛发被晨雾打湿微微贴附，身后九条尾巴呈自然散开的扇形（其中数条因快门略微动态模糊，强化真实捕捉感），背景是雾中虚化的青灰色竹影。Shot on Nikon Z9 with 600mm f/4 telephoto lens, golden hour ambient light, ISO 1600 grain texture, shallow depth of field",
+"creature_zh": "九尾狐",
+"creature_latin": "Vulpes Novemcaudata",
+"origin": "《南山经》青丘之山"
+},
+{
+"id": "No.02",
+"shot_description": "丹穴山悬崖古松枝头的逆光摄影，一只大型雉科鸟类立于扭曲松枝上，五色羽毛在朝阳逆光下呈现真实的半透明羽片层次（红、青、黄、白、黑五色分明但饱和度自然不夸张），长尾羽如流苏垂下，颈部细羽被晨风吹起，喙微张露出舌尖，背景是赤色晨雾中的远山轮廓全部虚化成柔和色块。Telephoto compression, backlit golden rim light, slight atmospheric haze, captured on Canon EOS R5 with 800mm lens",
+"creature_zh": "凤凰",
+"creature_latin": "Phoenix Sinensis",
+"origin": "《南山经》丹穴之山"
+},
+{
+"id": "No.03",
+"shot_description": "山间晨雾中的远距离偶遇摄影，一头大型有蹄类生物侧身行走于湿润苔石之间，鹿形躯干、牛尾、马蹄、额生独角，体表覆有真实可信的细密鳞甲质感（介于穿山甲与鳄鱼皮之间的自然纹理），独角呈乳白象牙色带细纹，蹄下踏过浅溪，水珠飞溅清晰可见。Overcast diffused natural light, no harsh shadows, documentary still frame, 400mm telephoto, environmental wide context",
+"creature_zh": "麒麟",
+"creature_latin": "Qilin Auspicius",
+"origin": "《海内北经》"
+},
+{
+"id": "No.04",
+"shot_description": "原始森林深处阴翳光线下的低视角摄影，一只大型猫科生物正面端坐于青苔覆盖的倒木上，狮形雪白通体，额生短角，胸口与四肢有暗金色斑纹（如非洲野犬的斑驳质感），双眸金黄直视镜头，胡须根根清晰，毛尖在树冠光斑下泛微光。Forest dappled light filtering through canopy, low ISO clean capture, 200mm f/2.8, shot on Sony A1",
+"creature_zh": "白泽",
+"creature_latin": "Bai Ze Sapiens",
+"origin": "《轩辕本纪》东望山"
+},
+{
+"id": "No.05",
+"shot_description": "活火山口边缘的环境野生动物摄影，一只独脚长腿涉禽如火烈鸟般单足而立，通体青羽带朱红色横向斑纹，喙白如骨，单腿支撑姿态稳定真实（关节解剖学可信），背景是模糊的橙红色岩浆余光与黑色火山岩。Volcanic ambient red light as key, ISO 3200 noise texture, telephoto isolation, hyper-real plumage detail",
+"creature_zh": "毕方",
+"creature_latin": "Bi Fang Monopes",
+"origin": "《西山经》章莪之山"
+},
+{
+"id": "No.06",
+"shot_description": "邽山雪原黄昏时刻的伏击瞬间摄影，一只壮硕翼虎低伏于雪地之中，体型如东北虎而背部生有一对收拢的羽翼（翼羽如猛禽般层叠贴背），赭红毛色带深色虎纹，獠牙微露，呼出的白色雾气清晰可见，雪粒附着于面部毛发。Cold blue twilight ambient light, breath vapor visible, 600mm wildlife shot, hyper-real fur and feather texture",
+"creature_zh": "穷奇",
+"creature_latin": "Qiong Qi Alatus",
+"origin": "《西山经》邽山"
+},
+{
+"id": "No.07",
+"shot_description": "北冥高空航拍视角，一只巨型翼展鸟类正俯飞掠过云海之上，主翼羽展开如帆船，可清晰看见每根羽片的层叠与缝隙间漏下的光，下方是翻涌的灰蓝色海面与盘旋云絮，画面上呈现真实的航拍光雾与大气透视。Aerial drone perspective, telephoto compression, soft cloud diffusion, gray-blue palette, photographic film grain",
+"creature_zh": "鲲鹏",
+"creature_latin": "Kun Peng Magnus",
+"origin": "《大荒东经》"
+},
+{
+"id": "No.08",
+"shot_description": "鹿吴山悬崖绝壁上的猛禽摄影，一只大型鹰科生物栖于裸露岩石上，头顶生有一只向后弯曲的真实角质独角（如羚羊角的纹理），翼羽墨黑带钢蓝光泽，金色虹膜与黑色瞳孔锐利，爪握岩石的肌腱可见，背景是雾蒙蒙的远山峡谷。Cliff-edge wildlife portrait, sidelit overcast diffuse light, 500mm prime lens, hyper-detailed feather and talon",
+"creature_zh": "蛊雕",
+"creature_latin": "Gu Diao Cornutus",
+"origin": "《南山经》鹿吴之山"
+},
+{
+"id": "No.09",
+"shot_description": "小次山密林中的野外抓拍摄影，一只中型猿类半身藏于阔叶植被之后，头部纯白如雪，四肢远端为鲜艳赤红色，深棕躯干，神情警觉地从树叶缝隙中凝视镜头，叶片在前景虚化形成自然遮挡，光线为雨林午后柔和漫射。Camera-trap aesthetic, foliage occlusion in foreground, telephoto with environmental framing, true-to-life primate anatomy",
+"creature_zh": "朱厌",
+"creature_latin": "Zhu Yan Albicapitus",
+"origin": "《西山经》小次之山"
+}
+]
+},
+"bottom_footer": {
+"left": "细衬线英文小字 'Photography & Documentation: Field Expedition Team'",
+"center": "一道细金线分隔，下方居中宋体小字 '据《山海经》辑录'",
+"right": "细衬线英文小字 'shanhaijing.field-guide / 2026'"
+}
+},
+"typography": {
+"masthead_font": "细衬线英文大写字母（如 Optima 或 Trajan 风格），暖白色",
+"main_title_font": "现代宋体加粗大号，暖白色",
+"creature_name_zh_font": "中号宋体，暖白色",
+"creature_name_latin_font": "细衬线斜体小号，暗金色 #C9A961",
+"origin_font": "极细黑体小号，浅灰白",
+"info_strip_overlay": "每格底部信息条为半透明黑色 #000000 60% 不透明度，文字三行紧凑排版"
+},
+"rendering_quality": "整体画面追求真实新闻摄影与自然纪实摄影质感，每一格都应让观者第一眼相信这是用长焦镜头在野外真实拍摄到的活体生物，皮毛/羽片/鳞甲/瞳孔/光斑/景深虚化全部符合真实光学规律，避免任何插画笔触、CGI 塑料感、过度锐化或不自然色彩饱和，整张海报的设计感来自杂志版式秩序而非生物本身的修饰"

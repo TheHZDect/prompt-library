@@ -1,0 +1,21 @@
+﻿[IMG: image513.jpeg]
+2x2 网格，1:1 比例，针对 4 种著名的国际菜肴执行以下操作：
+# In[1]: 导入风味化学库
+import auto_inference_engine as ai
+import editorial_renderer as er
+subject = "[$DISH_NAME]"
+# In[2]: 解构为挥发性化合物
+df_gastronomy = ai.dissect_dish(subject, layers=['香气云', '质地矩阵', '美拉德画布', '文化记忆'])
+df_gastronomy['pairing_note'] = df_gastronomy.apply(lambda row: ai.suggest_wine_pairing(row.molecule), axis=1)
+# In[3]: 构建可食用的爆炸视图
+fig = er.Canvas(style="高端美食摄影 3D", lighting="柔光箱与背光蒸汽", dof="香气物质选择性聚焦")
+fig.add_title(f"{subject.upper()} 的隐性架构")
+for index, layer in df_gastronomy.iterrows():
+frame = fig.add_frame(shape="风味轮楔形", size=layer.intensity_value)
+frame.render_3d_model(layer.ingredient_scan, lighting="光泽感与透明感")
+frame.add_tasting_label(f"{layer.sensory_layer} | {layer.key_molecule} | {layer.pairing_note}")
+fig.draw_aroma_trail(previous_frame, frame, style="挥发性漩涡")
+fig.add_sidebar("大厨笔记：技法起源、质地改良剂")
+fig.add_tasting_grid(df_gastronomy[['sensory_layer', 'key_molecule', 'pairing_note', 'umami_bump']])
+# In[4]: 渲染
+fig.render(quality="米其林指南社论级写实摄影")

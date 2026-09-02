@@ -1,0 +1,93 @@
+entry_id	true_family	note
+d0426_0006	charcard	Q版立绘
+2026H1_0357	charcard	角色设定图
+2026H1_0169	charcard	三视图概念图
+2026H1_0632	portrait_real	婚纱人像四宫格,不是漫画
+d0508_0004	comic	复古漫画质感
+d0711_0009	comic	日式热血漫画
+d0629_0009	dbl_expo	双重曝光
+d0322_0051	dbl_expo	双重曝光肖像
+2026H1_0241	dbl_expo	双重曝光海报
+d0814_0041	portrait_real	街拍人像,报纸是背景道具
+d0517_0046	portrait_real	按图文冲突以正文为准：首句「清新甜酷写实人像摄影风格」，写实是流派声明、清新是氛围词｜原标 portrait_healing
+d0701_0017	portrait_retro	日系胶片咖啡馆人像
+d0728_0037	portrait_healing	超市人像,非电商
+d0507_0017	portrait_real	超市场景人像
+d0422_0032	portrait_real	学院风人像,货架是背景
+2026H1_0928	infographic	信息图海报
+2026H1_0443	infographic	科技信息图
+2026H1_0132	infographic	教育信息图
+d0715_0015	photo_food	蛋糕
+d0409_0008	photo_food	糖葫芦
+d0603_0014	photo_scenearch	咖啡馆外立面,非美食
+d0409_0042	photo_mecha	机甲
+d0804_0013	photo_mecha	空间站
+d0713_0012	photo_mecha	宇航员科幻
+d0528_0032	portrait_guofeng	新娘旗袍,是人物
+d0415_0022	photo_misc	国风小物贴纸
+d0416_0028	photo_scenearch	姜饼屋城市
+d0426_0007	photo_pet	河马橘猫
+d0709_0004	photo_food	看图改标 pet→food：主体是菠萝造型水果铺与前景陈列水果，兔象只是店员元素｜原标 photo_pet
+k0000_0017	portrait_real	回退上轮基于图的 dream：正文声明「亚洲，真人」且无风格段，按正文兜底为写实｜原标 portrait_dream
+d0823_0014	photo_plant	森林山脉
+d0809_0007	photo_plant	盆栽植物
+d0414_0043	photo_scenearch	宫殿群,树木是次要
+2026H1_0541	poster	联名广告海报
+2026H1_0072	poster	看图改标 product→poster：成品含品牌标题、中文标语与竖版排版，是广告海报形态｜原标 photo_product
+k0000_0020	portrait_real	人物写真,校园是背景
+d0811_0013	photo_scenearch	高塔都市
+d0722_0005	photo_scenearch	未来都市
+d0618_0030	portrait_real	教室白衬衫半身写真，声明写实画质与细腻皮肤纹理
+d0602_0068	portrait_cinema	风格段首位即电影感+黄昏侧光戏剧性
+d0503_0052	portrait_dark	暗黑奇幻魔法师，神秘诡谲低照度
+d0609_0062	portrait_dream	清新童话风+花田公主裙，梦幻向
+d0721_0051	portrait_guofeng	改良汉服+江南园林回廊
+d0812_0057	portrait_healing	日系清新通透+玫瑰藤窗台
+d0412_0032	portrait_anime	二次元女仆插画
+2026H1_0340	portrait_anime	3D 卡通夸张比例角色立绘
+d0805_0010	photo_misc	奇幻史诗场景，武士只是元素之一
+d0508_0001	photo_mecha	主体是青铜科幻传送门
+d0615_0040	portrait_retro	按图文冲突以正文为准：首位声明「夜间游乐园胶片少女人像」，胶片在前｜原标 portrait_healing｜2026-09-01 看图裁定关闭：图为干净韩系写真无颗粒，但图仅单次出图样本不可复现，且正文胶片/颗粒与韩系真实并存属混合提示词，按首位声明判 retro 维持；开看图翻案例外会引入无原则阈值
+d0612_0016	portrait_healing	马卡龙粉调元气室内写真
+d0802_0012	photo_vehicle	主体 GT-R 跑车
+d0403_0027	photo_vehicle	主体蓝色跑车
+d0804_0020	photo_scenearch	未来都市建筑与街道为主体
+d0517_0062	portrait_dark	哥特摇滚少女+电吉他
+d0327_0008	portrait_dark	暗黑奇幻精灵肖像
+k0326_0023	portrait_dark	病娇纯红背景棚拍
+d0608_0039	portrait_dream	仙气+樱花发饰
+2026H1_0147	screenshot	B站弹幕界面仿制
+2026H1_0099	screenshot	微博发博界面仿制
+d0321_0051	ecom	正文首句即详情页海报+单品磨砂膏
+2026H1_0694	ecom	看图改标 misc→ecom：国潮餐饮徽章 Logo 板，按既定决策 Logo/VI 归 ecom｜原标 ecom
+2026H1_0431	screenshot	带货+弹幕截图，截图证据更强
+d0806_0018	photo_scenearch	临海小商店场景，无人物主角
+d0322_0056	wallpaper	看图改标 ui→wallpaper：竖屏手机锁屏画面含手电筒/相机快捷图标，属壁纸头像用途｜原标 ui
+2026H1_0156	ecom	看图改标 infographic→ecom：品牌规范套件板，按既定决策 Logo/VI 归 ecom｜原标 infographic
+2026H1_0031	document	生成一张报纸+头版头条
+2026H1_1360	document	复古中文报纸头版设计
+2026H1_0016	ui	落地页模型 JSON 模板
+2026H1_0227	ui	落地页+导航栏+CTA
+d0527_0006	ui	咖啡品牌网页首屏
+d0603_0047	portrait_real	自然写实户外人像
+d0727_0067	portrait_real	写实自然光女模特
+d0814_0014	photo_scenearch	粗野主义混凝土建筑，人物渺小
+d0409_0030	portrait_anime	按正文为准：声明「吉卜力式治愈系日系动漫风插画」，动漫/插画是本体词｜原标 photo_misc｜2026-09-01 看图裁定关闭：图即吉卜力系插画、人物为画面中心，anime 无争议
+d0426_0003	portrait_anime	Q 版水彩小女孩
+d0706_0027	portrait_healing	日系青春棒球少女
+d0411_0023	portrait_anime	二次元古风女战士
+2026H1_0449	infographic	2x2 网格时间轴等轴测信息图
+2026H1_0205	photo_misc	回退上轮基于图的 poster：正文只有槽位列表，未声明海报/广告｜原标 poster
+d0414_0019	portrait_anime	吉卜力风小王子少年角色
+k0331_0002	portrait_cinema	宋代市井电影级双人剧照
+d0627_0005	photo_product	新中式香薰单品摄影
+2026H1_0459	poster	自称超电影感广告海报
+d0505_0002	portrait_dark	按正文为准：「战锤40K 风格的暗黑科幻数字绘画」，暗黑@15 在科幻@17 之前｜原标 portrait_cyber｜2026-09-01 看图裁定关闭：图 grimdark（黑甲骷髅纹/橙眼光/雨夜火星）属暗黑美学非赛博，dark 正确
+d0720_0025	portrait_cyber	机械义肢+护目镜，赛博废土
+d0817_0014	portrait_cyber	东方赛博写实数字艺术，人物为视角锚点
+2026H1_1159	wallpaper	成品形式即手机锁屏壁纸
+2026H1_0922	wallpaper	iPhone 锁屏壁纸+保留身份的头像向
+d0414_0014	wallpaper	纯黑框景装饰画，日期与署名，装饰性为主
+d0806_0023	portrait_anime	日系动漫少年立于山巅，被误判 wallpaper
+d0406_0016	photo_vehicle	主体是 Vespa 踏板摩托，被误判 wallpaper
+d0613_0056	portrait_real	都市夜景时尚人像，霓虹只是布光

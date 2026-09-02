@@ -1,0 +1,74 @@
+﻿[IMG: image414.jpeg]
+{
+"Objective": "重新创作一个3x3网格的黑白时尚故事板，使用不同的主题和风格化的俏皮姿势。",
+"Format": {
+"Aspect Ratio": "1:1 方形拼贴",
+"Grid": {
+"Rows": 3,
+"Columns": 3,
+"Total Frames": 9,
+"Spacing": "帧之间细黑分隔线",
+"Margins": "最小化干净边框"
+}
+},
+"Reference Style": {
+"Image Type": "工作室时尚联系表",
+"Color": "黑白",
+"Background": "纯色工作室背景",
+"Lighting": "柔和均匀的工作室照明，带有细微阴影",
+"Camera": "固定构图，从中景到全身变化"
+},
+"Persona Details": {
+"Character": "日本女性",
+"Appearance": "极度可爱和美丽，柔和的面部特征",
+"Wardrobe": "可爱的皮卡丘主题背心和休闲短裤",
+"Vibe": "俏皮、调情、富有表现力"
+},
+"Poses per Frame": [
+{
+"Frame": 1,
+"Pose": "站立，手插头发，俏皮表情"
+},
+{
+"Frame": 2,
+"Pose": "放松站姿，轻微臀部倾斜，柔和微笑"
+},
+{
+"Frame": 3,
+"Pose": "坐姿，膝盖收拢，回头看"
+},
+{
+"Frame": 4,
+"Pose": "侧面轮廓，回头看向镜头"
+},
+{
+"Frame": 5,
+"Pose": "正面，手指靠近嘴唇，挑逗表情"
+},
+{
+"Frame": 6,
+"Pose": "手调整腰带，自信站姿"
+},
+{
+"Frame": 7,
+"Pose": "背对，转头看，头发飘逸"
+},
+{
+"Frame": 8,
+"Pose": "侧坐，放松的自然神情"
+},
+{
+"Frame": 9,
+"Pose": "直立站姿，轻微坏笑，休闲姿态"
+}
+],
+"Visual Style": {
+"Tone": "高对比单色",
+"Texture": "轻微胶片颗粒感，营造编辑风格",
+"Aesthetic": "时尚杂志联系表，最小干扰"
+},
+"Response Format": {
+"Type": "图像生成提示",
+"Output": "单一3x3黑白拼贴，包含9个独特姿势"
+}
+}

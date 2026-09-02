@@ -1,0 +1,8 @@
+﻿[IMG: image891.jpeg]
+2x2网格，展示4个让全人类感到自豪的历史瞬间：Function Render_Doodle ($ Subject)
+Anchor:[涂鸦 $ Subject] :: [笔记本草图]::5
+Morphology:$Subject 在有线笔记本上被画成可爱的圆珠笔素描，凌乱的头发/配饰，可爱的痕迹::4
+Material Physics: 纸上蓝色或黑色墨水，有线纸背景，轻微渗透，手绘的不完美感::3
+Illumination: 教室头顶灯光，手部的微妙阴影，怀旧风::2
+Render Stack: 笔记本扫描，8k，学生涂鸦美学::1
+Negative:[数字，干净，彩色，写实，暗色，矢量]:: -1

@@ -1,0 +1,73 @@
+﻿[IMG: image431.jpeg]
+{
+"image_generation_request": {
+"framing_and_composition": {
+"shot_type": "中景",
+"orientation": "垂直",
+"composition": "镜面自拍，主体居中",
+"camera_in_shot": "反射中可见智能手机，置于胸部高度",
+"perspective": "随性夜生活"
+},
+"subject_identity": {
+"reference_name": "{argument name=\"celebrity name\" default=\"Ana de Armas (young)\"}",
+"skin_tone": "苍白，瓷器般",
+"facial_structure": {
+"jawline": "线条分明",
+"cheekbones": "高颧骨",
+"eyes": "大，杏仁状，绿褐色",
+"nose": "精致，纤细"
+},
+"identity_fidelity": "100% 面部保留，独特特征零改动"
+},
+"expression_and_pose": {
+"expression": "魅惑，中性，沉着",
+"gaze": "直视镜面反射的摄像头镜头",
+"head_pose": "头部略微倾斜",
+"body_language": "自信，厚重外套随意披挂，露出肩部",
+"hand_detail": "右手持手机，食指伸展，红色美甲"
+},
+"styling_details": {
+"makeup": {
+"eyes": "犀利黑色飞翼眼线，烟熏下眼睑，浓密睫毛膏",
+"eyebrows": "眉形清晰，自然深色",
+"lips": "柔和哑光玫瑰色调，略微外扩唇线",
+"contour": " subtle，聚焦颧骨"
+},
+"hair": {
+"color": "深浓咖啡色",
+"style": "长，浓密，波浪，蓬松",
+"texture": "凌乱别致，健康光泽",
+"parting": "略微偏分"
+},
+"outfit": {
+"base_layer": "巧克力棕色金属感单肩紧身连衣裙，带褶皱",
+"outerwear": "厚重棕色仿貂皮大衣，露肩穿搭"
+},
+"accessories": {
+"jewelry": "大而粗犷的复古风格金色耳环",
+"nails": "长而尖的亚克力美甲，亮樱桃红",
+"phone_case": "深色手机壳中的现代智能手机"
+}
+},
+"physical_attributes": {
+"silhouette": "纤细，健美沙漏型",
+"details": "锁骨分明，肩部纤细，腰部苗条，女性曲线"
+},
+"environment_and_lighting": {
+"setting": "黑暗简约奢华内饰（高端俱乐部/酒廊）",
+"background_elements": "水平黑色瓷砖墙或抛光深色木板",
+"lighting_type": "硬镜面闪光",
+"lighting_effects": "中心星芒光斑，高对比度高光，深邃阴影",
+"film_texture": "细微胶片颗粒，低光手机摄影效果"
+},
+"technical_specifications": {
+"aesthetic": "iPhone 拍摄，超现实",
+"resolution": "8k，高分辨率纹理，原始照片质量",
+"artifacts": "轻微运动模糊，自然数字噪点",
+"focus": "尽管有闪光，面部特征仍清晰对焦"
+},
+"mood_and_style": {
+"theme": "It-girl 夜生活，前卫，迷人，奢华"
+}
+}
+}

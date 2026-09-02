@@ -1,0 +1,67 @@
+﻿[IMG: image463.jpeg]
+[IMG: image464.jpeg]
+纵向足球传奇人物纪念海报，极简高端体育杂志版式设计，一位传奇足球运动员背身侧脸回望，穿着红绿色葡萄牙国家队球衣，背后可见巨大金色数字 7 与名字 Ronaldo，人物占据画面右侧大面积空间，左侧保留大量暖米白色留白用于排版。
+整体风格为：
+低多边形油画质感人物海报（faceted low-poly digital painting）
++
+体育传奇纪念视觉（sports tribute poster）
++
+高端编辑杂志设计（luxury editorial sports layout）
+人物皮肤、头发、球衣、肩膀和面部由大量几何切面笔触构成，具有：
+碎片化光影
+厚涂油画感
+雕塑般体积感
+高级数字绘画肌理
+微弱纸张纹理
+人物神情冷静、自信、克制，带有传奇球星的压迫感与英雄气质。
+构图特点：
+右侧超大人物主体
+左侧极简留白排版
+强烈纵向视觉层级
+杂志封面式 typography
+干净高级的现代体育海报设计
+画面采用：
+暖米白背景
+红、金、深棕、墨绿色主色调
+柔和自然光
+轻微边缘高光
+安静庄重氛围
+左侧文字模块包括：
+足球图标
+激励短句
+巨大粗体窄高字体姓名
+MENTALITY”
+focus / discipline / relentless / legendary 等关键词
+签名元素
+年份信息
+关键词：
+Cristiano Ronaldo tribute poster, Portugal national team jersey, number 7 football legend, low poly sports portrait, faceted geometric painting, cinematic football poster, luxury editorial sports design, red and green jersey, side profile looking back, legendary athlete artwork, minimalist beige background, premium typography layout, emotional sports tribute, digital oil painting, polygonal portrait, high detail sports illustration, world cup poster aesthetic, museum-quality football wall art.
+英文提示词
+Vertical tribute poster of a legendary football player, minimalist luxury sports editorial layout, the athlete shown from the back while turning his head in a calm side-profile glance, wearing a red and green Portugal national team jersey with a large gold number 7 and Ronaldo lettering on the back.
+The player occupies the right side of the composition while the left side contains large warm beige negative space for elegant typography and graphic layout.
+Style combines:
+faceted low-poly digital painting
+cinematic football tribute poster
+luxury editorial sports magazine aesthetic
+textured digital oil painting
+The skin, hair, jersey and facial structure are built from geometric polygonal brush strokes with fragmented lighting, sculptural volume, painterly texture and subtle canvas grain.
+Mood is calm, iconic, legendary and emotionally restrained.
+Color palette:
+warm beige
+deep red
+gold
+dark green
+soft brown shadows
+Lighting is soft cinematic natural light from the upper left with subtle rim highlights.
+Typography layout includes:
+football emblem
+motivational quote
+giant condensed sans-serif name typography
+mentality keywords
+signature mark
+year line
+clean magazine hierarchy
+Keywords:
+Cristiano Ronaldo poster, Portugal football jersey, number 7 legend, luxury sports editorial design, low poly portrait illustration, polygonal football artwork, cinematic tribute poster, minimalist typography layout, world cup visual aesthetic, legendary athlete memorial art, premium football magazine cover, ultra detailed digital painting, elegant sports wall art.
+负面提示词
+低清晰度，模糊，廉价 AI 感，错误人体结构，球衣错误，号码错误，过度卡通，Q版，大头娃娃，塑料皮肤，文字乱码，背景杂乱，赛博朋克霓虹，过度饱和，脸部崩坏，错误手部，水印，logo错误，低质量纹理，廉价海报感。

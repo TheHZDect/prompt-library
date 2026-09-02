@@ -1,0 +1,78 @@
+﻿[IMG: image1484.jpeg]
+{
+"task": "image_generation",
+"style": {
+"resolution": "8K",
+"look": "超现实、电影感",
+"photorealism": true
+},
+"subject": {
+"identity": "虚构的健身模特",
+"inspiration": "受名人启发（非同一人，不进行面部匹配）",
+"gender": "女性",
+"skin_tone": "白皙",
+"pose": {
+"view": "3/4 后侧",
+"posture": "弓背",
+"head_direction": "回眸"
+},
+"expression": "严肃",
+"makeup": {
+"eyeliner": "上扬眼线",
+"finish": "自然电影感"
+},
+"hair": {
+"color": "蜂蜜棕",
+"style": "发髻",
+"accessory": "发夹"
+}
+},
+"wardrobe": {
+"top": {
+"type": "运动内衣",
+"color": "灰色",
+"design": "多肩带"
+},
+"bottom": {
+"type": "短裤",
+"fit": "紧身、高腰",
+"texture": "罗纹",
+"color": "棕色"
+},
+"socks": {
+"type": "过膝袜",
+"color": "黑色",
+"details": "红色条纹"
+}
+},
+"environment": {
+"location": "健身房",
+"background_elements": [
+"红色金属架"
+],
+"atmosphere": "电影感、情绪化"
+},
+"camera": {
+"lens": "85mm",
+"depth_of_field": "浅景深",
+"focus": "主体清晰"
+},
+"lighting": {
+"type": "电影感",
+"key": "柔和定向光",
+"contrast": "高对比度",
+"highlights": "受控高光"
+},
+"detail": {
+"skin": "超精细、逼真的皮肤纹理",
+"fabric": "高微观细节"
+},
+"composition": {
+"aspect_ratio": "3:4",
+"framing": "肖像构图"
+},
+"constraints": {
+"no_real_person_identity": true,
+"no_face_matching": true
+}
+}

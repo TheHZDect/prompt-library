@@ -1,0 +1,50 @@
+﻿[IMG: image3.jpeg]
+{
+"type": "品牌形象与周边设计项目",
+"theme": {
+"color_palette": "{argument name=\"theme color\" default=\"柔粉色\"} 与白色",
+"motif": "{argument name=\"motif\" default=\"樱花\"} 与粉色爱心"
+},
+"character": {
+"description": "留着棕色短波波头的动漫少女，粉色眼睛，身穿白色连帽衫，面带温柔微笑"
+},
+"branding": {
+"main_logo": "{argument name=\"character name\" default=\"癒音ちー\"}",
+"sub_logo": "{argument name=\"character subtext\" default=\"ゆおんちー\"}"
+},
+"layout": {
+"sections": [
+{
+"type": "页眉横幅",
+"position": "顶部",
+"elements": ["大型主 Logo", "副 Logo", "樱花图案", "右侧角色肖像"]
+},
+{
+"type": "产品包装",
+"position": "中左",
+"elements": ["1 个带有心形透明窗口的方形包装盒，展示粉色心形糖果", "盒身角色插画", "2 个独立糖果包装纸", "5 颗散落的心形糖果"]
+},
+{
+"type": "宣传海报",
+"position": "中右",
+"elements": ["角色肖像", "心形糖果碗", "主 Logo", "文字 '4.26 NEW OPEN'", "文字 '{argument name=\"social handle\" default=\"@yuonchii\"}'"]
+},
+{
+"type": "水平网页横幅",
+"position": "中下",
+"elements": ["主 Logo", "樱花", "右侧角色肖像"]
+},
+{
+"type": "社交媒体个人资料样机",
+"position": "左下",
+"elements": ["带有 Logo 的页眉图片", "1 个圆形头像", "账号名 '{argument name=\"social handle\" default=\"@yuonchii\"}'", "1 个关注按钮", "模拟简介文本"]
+},
+{
+"type": "周边商品系列",
+"position": "右下",
+"count": 9,
+"items": ["1 件印有 Logo 的白色 T 恤", "1 个印有角色图案的白色马克杯", "4 枚圆形徽章", "1 个亚克力钥匙扣", "2 包糖果"]
+}
+]
+}
+}

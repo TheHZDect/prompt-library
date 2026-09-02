@@ -1,0 +1,67 @@
+﻿[IMG: image1483.jpeg]
+{
+"type": "image_generation_prompt",
+"style": "超现实都市街头摄影，电影感但贴近现实",
+"scene": {
+"description": "高度真实的都市滑板动作场景",
+"location": "废弃的都市区域",
+"environment_details": [
+"大型混凝土墙",
+"色彩斑斓的分层涂鸦艺术",
+"开裂的混凝土地面",
+"可见的泥土、磨损和原始纹理"
+],
+"atmosphere": "真实、粗犷、沉浸式的都市氛围"
+},
+"subject": {
+"gender": "女性",
+"identity_lock": {
+"use_reference_image": true,
+"strict_identity_preservation": true,
+"notes": "100% 保留女性的面部特征、比例、皮肤纹理、发型和整体身份，与参考图像完全一致。"
+},
+"physique": {
+"build": "健美匀称",
+"definition": "自然的肌肉线条",
+"anatomy": "真实准确的解剖结构"
+},
+"action": {
+"activity": "正在表演一个令人印象深刻的滑板特技",
+"position": "空中或略高于地面",
+"control": "滑板完美地对准她的脚下，展现出自信和平衡"
+},
+"pose_and_motion": {
+"body_language": "运动控制和平衡感",
+"wind_effect": "微风轻拂衣物，增加真实感"
+}
+},
+"camera": {
+"framing": "全身",
+"angle": "略低、对角线角度",
+"focus": "面部和身体清晰对焦",
+"motion_effects": {
+"background": "背景略微运动模糊",
+"skateboard_wheels": "滑板轮子轻微运动模糊，以增强速度感"
+}
+},
+"lighting": {
+"type": "自然电影感光照",
+"quality": "柔和阴影，适度对比",
+"color_grading": "真实、都市色调"
+},
+"textures_and_detail": {
+"skin": "照片级真实的皮肤纹理",
+"clothing": "逼真的布料褶皱和动态",
+"environment": "超详细的混凝土和涂鸦纹理",
+"physics": "准确的滑板物理和身体力学"
+},
+"quality": {
+"realism_level": "最高真实度",
+"style_notes": [
+"无夸张",
+"无卡通风格",
+"无奇幻元素"
+]
+},
+"output_goal": "创作一张超现实、电影感但贴近现实的都市滑板动作图像，描绘一名女性在废弃的涂鸦环境中自信地表演空中特技，具有真实的动作、光照和纹理。"
+}

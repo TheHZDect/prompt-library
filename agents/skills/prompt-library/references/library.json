@@ -1,0 +1,945 @@
+{
+ "version": 1,
+ "family_count": 27,
+ "counts": {
+  "portrait_real": 3400,
+  "portrait_healing": 1597,
+  "photo_misc": 1123,
+  "portrait_guofeng": 1115,
+  "photo_scenearch": 843,
+  "portrait_retro": 755,
+  "portrait_cinema": 722,
+  "poster": 675,
+  "portrait_anime": 397,
+  "portrait_dream": 173,
+  "photo_plant": 151,
+  "portrait_cyber": 149,
+  "photo_mecha": 140,
+  "photo_pet": 132,
+  "infographic": 120,
+  "portrait_dark": 106,
+  "photo_vehicle": 71,
+  "comic": 64,
+  "photo_product": 62,
+  "charcard": 47,
+  "photo_food": 44,
+  "ecom": 41,
+  "dbl_expo": 22,
+  "screenshot": 8,
+  "wallpaper": 4,
+  "ui": 3,
+  "document": 2
+ },
+ "families": [
+  {
+   "id": "portrait_real",
+   "name": "人像·写实",
+   "name_en": "Realistic Portrait",
+   "parent": "portrait_real",
+   "scene": null,
+   "count": 3400,
+   "useWhen": "要一张有真实皮肤、发丝与布料质感的人物照片，不特指地域流派时用它。",
+   "useWhen_en": "One realistic person photo where skin, hair and fabric detail matter.",
+   "guidance": [
+    "先定景别与机位：近景特写／中景／全身，并交代人物在画面中的位置。",
+    "分前景—中景—远景三层写，每层给具体物体，而不是笼统\"虚化背景\"。",
+    "发色发型、服装单品与材质逐项写实（如\"黑色齐刘海长直发\"\"米白针织开衫\"）。",
+    "给光源方向与色温（窗光侧逆、暖黄路灯），不要只写\"光线好看\"。"
+   ],
+   "pitfalls": [
+    "只堆\"8K/超高清/极致\"却没有主体细节，画面会被随机填补。",
+    "同时要求多种冲突风格（写实+动漫+水墨），结果哪个都不到位。",
+    "前景中景远景不分，人物与背景互相抢焦点。"
+   ],
+   "exampleCases": [
+    "d0813_0039",
+    "d0819_0084",
+    "d0706_0042",
+    "d0707_0045",
+    "d0730_0078",
+    "d0614_0041"
+   ],
+   "tag_style": {
+    "写实": 3104,
+    "清新治愈": 1407,
+    "时尚商业": 1043,
+    "高级质感": 863
+   }
+  },
+  {
+   "id": "portrait_healing",
+   "name": "人像·治愈日系",
+   "name_en": "Healing / Japanese-style Portrait",
+   "parent": "portrait_healing",
+   "scene": null,
+   "count": 1597,
+   "useWhen": "要明亮通透、低对比、松弛元气的温柔写真感时用它。",
+   "useWhen_en": "Bright, low-contrast, relaxed and warm everyday portrait mood.",
+   "guidance": [
+    "定一个克制色域：暖白／浅蓝／淡粉，并写明低饱和、高明度。",
+    "用自然光并说明方向（窗光、午后斜阳、树影斑驳）。",
+    "给生活化动作与道具（捧杯子、打哈欠、背包、耳机），避免摆拍腔。",
+    "要求浅景深但保留环境可辨识，别把背景全糊掉。"
+   ],
+   "pitfalls": [
+    "\"治愈\"写成过曝，高光和皮肤细节一起丢。",
+    "服装与道具颜色过饱和，破坏柔和基调。"
+   ],
+   "exampleCases": [
+    "d0829_0073",
+    "d0709_0034",
+    "d0524_0011",
+    "d0726_0061",
+    "d0831_0025",
+    "d0817_0052"
+   ],
+   "tag_style": {
+    "清新治愈": 1580,
+    "写实": 1467,
+    "复古胶片": 245,
+    "梦幻唯美": 166
+   }
+  },
+  {
+   "id": "photo_misc",
+   "name": "摄影·综合创意",
+   "name_en": "Misc / Surreal Concept",
+   "parent": "photo_misc",
+   "scene": null,
+   "count": 1123,
+   "useWhen": "套不进具体类目时使用：超现实合成、微缩模型、概念场景。",
+   "useWhen_en": "Catch-all: surreal composites, tilt-shift miniatures, concept art.",
+   "guidance": [
+    "先定主体与\"世界规则\"（尺度、物理、材质）。",
+    "定手法：移轴微缩、多重合成、等距投影。",
+    "统一色板 2–3 色，压住混乱元素。",
+    "写明哪些必须真实、哪些允许夸张。"
+   ],
+   "pitfalls": [
+    "概念元素堆叠无主次。",
+    "尺度关系不自洽（人比楼大Yet 写实）。"
+   ],
+   "exampleCases": [
+    "2026H1_0566",
+    "d0616_0018",
+    "2026H1_1149",
+    "d0714_0021",
+    "2026H1_0685",
+    "d0727_0012"
+   ],
+   "tag_style": {
+    "写实": 574,
+    "电影感": 335,
+    "3D立体": 313,
+    "古风国风": 296
+   }
+  },
+  {
+   "id": "portrait_guofeng",
+   "name": "人像·古风",
+   "name_en": "Chinese Classical Portrait",
+   "parent": "portrait_guofeng",
+   "scene": null,
+   "count": 1115,
+   "useWhen": "中式古典造型人像：汉服、发髻、流苏、刺绣、团扇等元素在场时用它。",
+   "useWhen_en": "Chinese classical styling: hanfu, hairpins, embroidery, fan.",
+   "guidance": [
+    "写清形制与配色（齐胸襦裙／立领长衫／改良汉服 + 具体色系）。",
+    "头面发饰具体到件数与材质（鎏金流苏簪、珍珠步摇），别只写\"华丽\"。",
+    "面料要质感词：纱、罗、织金、刺绣、盘金。",
+    "光线二选一：温润暖调（宫廷）或清冷通透（仙侠），不要混。"
+   ],
+   "pitfalls": [
+    "不同朝代形制混穿，一眼出戏。",
+    "饰品堆到糊住面部与五官。",
+    "把古风写成廉价影楼背景布。"
+   ],
+   "exampleCases": [
+    "2026H1_1178",
+    "d0525_0005",
+    "d0529_0071",
+    "d0819_0011",
+    "d0529_0061",
+    "d0706_0062"
+   ],
+   "tag_style": {
+    "古风国风": 995,
+    "写实": 952,
+    "梦幻唯美": 292,
+    "清新治愈": 275
+   }
+  },
+  {
+   "id": "photo_scenearch",
+   "name": "摄影·建筑场景",
+   "name_en": "Architecture & Landscape",
+   "parent": "photo_scenearch",
+   "scene": null,
+   "count": 843,
+   "useWhen": "主体是空间、建筑或自然风光，人物很小或没有时用它。",
+   "useWhen_en": "The space itself is the subject; people minor or absent.",
+   "guidance": [
+    "定视角与尺度：广角仰视／俯瞰／人眼平视。",
+    "写建筑材料与年代（清水混凝土、鎏金雕花、木构飞檐）。",
+    "给时间与天气（清晨薄雾、暴雨前、雪夜灯光）。",
+    "说明结构关系：前景框架、引导线、对称轴。"
+   ],
+   "pitfalls": [
+    "没有尺度参照物，大楼看不出大小。",
+    "透视与镜头畸变不写，结构画歪。"
+   ],
+   "exampleCases": [
+    "d0812_0008",
+    "d0715_0018",
+    "d0826_0002",
+    "d0821_0001",
+    "d0823_0003",
+    "d0811_0016"
+   ],
+   "tag_style": {
+    "写实": 444,
+    "电影感": 375,
+    "超现实数字": 315,
+    "3D立体": 261
+   }
+  },
+  {
+   "id": "portrait_retro",
+   "name": "人像·复古胶片",
+   "name_en": "Retro Film Portrait",
+   "parent": "portrait_retro",
+   "scene": null,
+   "count": 755,
+   "useWhen": "要胶片颗粒、褪色低饱和、旧时代氛围的人像时用它。",
+   "useWhen_en": "Film grain, faded palette, period wardrobe and locations.",
+   "guidance": [
+    "颗粒与褪色程度要量化（轻／中，高光是否偏奶白）。",
+    "指定复古色板：港风暖红、民国淡雅、西式芥黄。",
+    "服装单品具体（丝绒吊带、大波浪、怀表链、皮带相机）。",
+    "场景选老街／出租屋／站台，并交代光源年代感（白炽灯、霓虹）。"
+   ],
+   "pitfalls": [
+    "又要\"胶片颗粒\"又要\"极致锐利干净\"，互相抵消。",
+    "复古元素堆过头，变成 cosplay 造型照。"
+   ],
+   "exampleCases": [
+    "d0620_0028",
+    "d0612_0052",
+    "d0709_0061",
+    "d0821_0023",
+    "d0702_0029",
+    "d0402_0035"
+   ],
+   "tag_style": {
+    "写实": 681,
+    "复古胶片": 626,
+    "清新治愈": 303,
+    "高级质感": 175
+   }
+  },
+  {
+   "id": "portrait_cinema",
+   "name": "人像·电影感",
+   "name_en": "Cinematic Portrait",
+   "parent": "portrait_cinema",
+   "scene": null,
+   "count": 722,
+   "useWhen": "想要剧照式的叙事感、明确明暗反差与情绪时用它。",
+   "useWhen_en": "Still-frame mood: deliberate contrast, story cue, emotional read.",
+   "guidance": [
+    "先定主光源与反差比（侧逆光、单灯、车窗漫光）。",
+    "给一个能承担叙事的元素（雨、车站、霓虹、烟、玻璃反射）。",
+    "统一冷暖撞色，说明阴影倾向（青橙／冷蓝／暖金）。",
+    "选一种镜头语言并写死：广角近身 或 长焦压缩，不要两者都要。"
+   ],
+   "pitfalls": [
+    "只写\"电影感\"不给光色，等于没写。",
+    "戏剧光影过强，把皮肤细节全吞掉。"
+   ],
+   "exampleCases": [
+    "2026H1_1160",
+    "d0530_0075",
+    "2026H1_1349",
+    "d0703_0039",
+    "d0526_0026",
+    "d0818_0017"
+   ],
+   "tag_style": {
+    "电影感": 720,
+    "写实": 631,
+    "高级质感": 177,
+    "清新治愈": 151
+   }
+  },
+  {
+   "id": "poster",
+   "name": "海报",
+   "name_en": "Poster",
+   "parent": "poster",
+   "scene": null,
+   "count": 675,
+   "useWhen": "要成品海报／封面，画面里有标题文字与版式时用它。",
+   "useWhen_en": "Finished poster or cover with headline text and layout.",
+   "guidance": [
+    "文案分层写清：主标题／副标题／信息行／署名，各给内容。",
+    "定比例与留白比例（如 2:3，大面积留白）。",
+    "字体气质与画面一致（极简无衬线／复古衬线／手写）。",
+    "规定图文占比：主视觉占多少、文字区在哪一侧。"
+   ],
+   "pitfalls": [
+    "文字量过大导致不可读或乱码。",
+    "没定比例，横竖乱出。",
+    "字体风格与画面气质冲突。"
+   ],
+   "exampleCases": [
+    "2026H1_0063",
+    "2026H1_0826",
+    "d0802_0017",
+    "d0612_0054",
+    "2026H1_0620",
+    "2026H1_0945"
+   ],
+   "tag_style": {
+    "高级质感": 325,
+    "写实": 317,
+    "时尚商业": 310,
+    "电影感": 239
+   }
+  },
+  {
+   "id": "portrait_anime",
+   "name": "人像·动漫插画",
+   "name_en": "Anime / Illustration Portrait",
+   "parent": "portrait_anime",
+   "scene": null,
+   "count": 397,
+   "useWhen": "画二次元或插画风格的人物图时用它。",
+   "useWhen_en": "Anime, cartoon or editorial illustration of a character.",
+   "guidance": [
+    "定画法：赛璐璐／厚涂／线稿／剪纸层叠／社论插画，只选一种。",
+    "描边与上色规则写清（有无描边、阴影是否硬边）。",
+    "五官比例与眼睛风格具体化（大圆眼／细长眼／点眼）。",
+    "背景做减法：纯色、几何或简化场景，与人物繁简互补。"
+   ],
+   "pitfalls": [
+    "线稿与厚涂同时要求，画面风格撕裂。",
+    "写了\"超写实\"又写\"动漫\"，模型两头不靠。"
+   ],
+   "exampleCases": [
+    "d0529_0064",
+    "d0523_0057",
+    "d0807_0002",
+    "d0531_0071",
+    "d0612_0051",
+    "d0821_0009"
+   ],
+   "tag_style": {
+    "动漫插画": 355,
+    "清新治愈": 188,
+    "写实": 145,
+    "3D立体": 99
+   }
+  },
+  {
+   "id": "portrait_dream",
+   "name": "人像·梦幻唯美",
+   "name_en": "Dreamy / Ethereal Portrait",
+   "parent": "portrait_dream",
+   "scene": null,
+   "count": 173,
+   "useWhen": "要柔光、花海、童话仙气的浪漫氛围人像时用它。",
+   "useWhen_en": "Soft-focus, floral, fairytale-romantic portrait.",
+   "guidance": [
+    "光效写具体：逆光柔焦、光斑、薄雾、色散。",
+    "花与植物点到物种与颜色（粉玫瑰海、绣球、三角梅）。",
+    "控制虚实比例：主体清晰，装饰虚化，别整幅糊。",
+    "色板限定 2–3 色，避免彩虹堆色。"
+   ],
+   "pitfalls": [
+    "\"梦幻\"被执行成全面失焦。",
+    "粉紫蓝一次堆满，甜腻失真。"
+   ],
+   "exampleCases": [
+    "d0821_0022",
+    "d0603_0066",
+    "d0604_0052",
+    "d0611_0040",
+    "d0625_0013",
+    "d0822_0033"
+   ],
+   "tag_style": {
+    "梦幻唯美": 173,
+    "写实": 159,
+    "清新治愈": 84,
+    "高级质感": 24
+   }
+  },
+  {
+   "id": "photo_plant",
+   "name": "摄影·植物自然",
+   "name_en": "Plants & Nature Still Life",
+   "parent": "photo_plant",
+   "scene": null,
+   "count": 151,
+   "useWhen": "花、树、森林、植物静物是画面主角时用它。",
+   "useWhen_en": "Flowers, trees and botanical still life as the hero.",
+   "guidance": [
+    "点到物种、季节与生长状态（盛放／凋落／挂露）。",
+    "定镜头语言：微距特写 或 远景成片。",
+    "光与空气感：晨雾、逆光透叶、雨滴。",
+    "如需配器（花瓶、纸鹤、木桌）写明材质。"
+   ],
+   "pitfalls": [
+    "花种不指定，形态常被画错。",
+    "景深过浅，整株结构丢失。"
+   ],
+   "exampleCases": [
+    "d0728_0006",
+    "2026H1_0300",
+    "d0721_0015",
+    "d0813_0013",
+    "d0722_0008",
+    "d0801_0009"
+   ],
+   "tag_style": {
+    "清新治愈": 88,
+    "写实": 71,
+    "梦幻唯美": 62,
+    "动漫插画": 51
+   }
+  },
+  {
+   "id": "portrait_cyber",
+   "name": "人像·赛博科幻",
+   "name_en": "Cyberpunk Portrait",
+   "parent": "portrait_cyber",
+   "scene": null,
+   "count": 149,
+   "useWhen": "霓虹、机械义肢、未来都市背景的人物图用它。",
+   "useWhen_en": "Neon-lit future character with cyber parts and city backdrop.",
+   "guidance": [
+    "点名霓虹光源方向与撞色（红青／品红蓝）。",
+    "科技元件具体：义肢、通讯耳机、发光纹、装甲片。",
+    "雨夜或湿地面来制造反射，画面立刻立体。",
+    "给机位与姿态（低角度回望／侧身前行）。"
+   ],
+   "pitfalls": [
+    "霓虹元素堆满无主次，主体被吃掉。",
+    "赛博与古风、治愈等风格混写。"
+   ],
+   "exampleCases": [
+    "d0524_0019",
+    "d0718_0004",
+    "d0720_0023",
+    "d0809_0003",
+    "d0811_0005",
+    "d0602_0011"
+   ],
+   "tag_style": {
+    "赛博朋克": 148,
+    "写实": 107,
+    "电影感": 37,
+    "动漫插画": 35
+   }
+  },
+  {
+   "id": "photo_mecha",
+   "name": "摄影·机本科幻",
+   "name_en": "Mecha & Sci-Fi Objects",
+   "parent": "photo_mecha",
+   "scene": null,
+   "count": 140,
+   "useWhen": "机甲、机器人、太空设施等科幻物体为主体的图用它。",
+   "useWhen_en": "Mecha, robots and space structures as subject.",
+   "guidance": [
+    "给机械结构与磨损（做旧金属、掉漆、灼痕）。",
+    "能量光源颜色与位置（胸腔蓝光、关节橙光）。",
+    "放参照物交代尺度（人、飞行器、楼宇）。",
+    "背景用虚化或纯色，避免与机甲细节打架。"
+   ],
+   "pitfalls": [
+    "零件密度过高，变成噪声团。",
+    "科幻与古风元素随意混搭。"
+   ],
+   "exampleCases": [
+    "d0830_0010",
+    "d0725_0012",
+    "d0715_0005",
+    "d0713_0018",
+    "d0816_0016",
+    "d0801_0012"
+   ],
+   "tag_style": {
+    "赛博朋克": 115,
+    "写实": 91,
+    "3D立体": 61,
+    "电影感": 58
+   }
+  },
+  {
+   "id": "photo_pet",
+   "name": "摄影·宠物动物",
+   "name_en": "Pets & Animals",
+   "parent": "photo_pet",
+   "scene": null,
+   "count": 132,
+   "useWhen": "以动物为绝对主体（含拟人穿搭）时用它。",
+   "useWhen_en": "Animals as the hero, including dressed-up characters.",
+   "guidance": [
+    "写品种、毛色、毛质与 age（英短纯白幼猫、蓬松卷毛）。",
+    "给一个自然动作与视线方向（探头、打盹、盯镜头）。",
+    "服饰道具尺寸要合理，别压垮身形比例。",
+    "背景简洁纯色，突出毛发细节。"
+   ],
+   "pitfalls": [
+    "写实与黏土卡通风混写，材质撕裂。",
+    "衣物遮挡导致肢体比例畸形。"
+   ],
+   "exampleCases": [
+    "d0715_0016",
+    "d0409_0001",
+    "d0417_0015",
+    "d0606_0004",
+    "d0803_0001",
+    "d0603_0011"
+   ],
+   "tag_style": {
+    "清新治愈": 77,
+    "动漫插画": 66,
+    "写实": 54,
+    "3D立体": 42
+   }
+  },
+  {
+   "id": "infographic",
+   "name": "信息图表",
+   "name_en": "Infographic",
+   "parent": "infographic",
+   "scene": null,
+   "count": 120,
+   "useWhen": "要图表、知识卡、时间线、流程说明这类信息图时用它。",
+   "useWhen_en": "Explainer graphics, timelines, knowledge cards, charts.",
+   "guidance": [
+    "列 3–5 个信息模块与先后顺序，每模块给标题与要点。",
+    "定版式栅格（左右分栏／中心放射／纵向时间轴）。",
+    "文字要短标签，明确\"不要长段落\"。",
+    "配色分组的语义（一类一色）与图标风格。"
+   ],
+   "pitfalls": [
+    "把长段正文塞进画面，字小且乱码。",
+    "模块过多导致挤成一团。"
+   ],
+   "exampleCases": [
+    "2026H1_1278",
+    "2026H1_0934",
+    "d0822_0057",
+    "2026H1_0592",
+    "d0320_0075",
+    "d0616_0058"
+   ],
+   "tag_style": {
+    "高级质感": 51,
+    "写实": 36,
+    "时尚商业": 30,
+    "电影感": 30
+   }
+  },
+  {
+   "id": "portrait_dark",
+   "name": "人像·暗黑氛围",
+   "name_en": "Dark / Moody Portrait",
+   "parent": "portrait_dark",
+   "scene": null,
+   "count": 106,
+   "useWhen": "哥特、低照度、神秘阴郁基调的人像用它。",
+   "useWhen_en": "Low-key, gothic, mysterious mood portrait.",
+   "guidance": [
+    "限定被照亮的区域（半脸、肩线、眼），其余明确入暗部。",
+    "材质选皮革／金属／黑纱，并给光泽说明。",
+    "用单一点光源（烛、手电、霓虹缝）。",
+    "留负空间，画面主体占比压低。"
+   ],
+   "pitfalls": [
+    "暗部没有层次，整片死黑。",
+    "把\"恐怖\"与\"高级质感\"混为一谈。"
+   ],
+   "exampleCases": [
+    "d0707_0078",
+    "d0322_0004",
+    "d0523_0058",
+    "d0605_0056",
+    "d0818_0015",
+    "d0503_0052"
+   ],
+   "tag_style": {
+    "暗黑氛围": 102,
+    "写实": 93,
+    "电影感": 39,
+    "超现实数字": 38
+   }
+  },
+  {
+   "id": "photo_vehicle",
+   "name": "摄影·载具",
+   "name_en": "Vehicles",
+   "parent": "photo_vehicle",
+   "scene": null,
+   "count": 71,
+   "useWhen": "汽车、摩托、飞行器等载具本身是主体时用它。",
+   "useWhen_en": "A vehicle is the hero object.",
+   "guidance": [
+    "逐部件写：车漆颜色与金属度、轮毂、尾灯、排气、车牌。",
+    "机位与焦段定死（低角度广角、侧面长焦）。",
+    "说明反射里应映出什么（环境、灯光），避免乱反。",
+    "环境只作衬托，保持车体干净可读。"
+   ],
+   "pitfalls": [
+    "车体结构与字母标常被画错，需明确简化要求。",
+    "背景过乱抢主体。"
+   ],
+   "exampleCases": [
+    "d0424_0007",
+    "d0422_0007",
+    "d0422_0009",
+    "d0802_0012",
+    "d0713_0013",
+    "d0808_0001"
+   ],
+   "tag_style": {
+    "写实": 46,
+    "清新治愈": 34,
+    "电影感": 26,
+    "梦幻唯美": 19
+   }
+  },
+  {
+   "id": "comic",
+   "name": "漫画分镜",
+   "name_en": "Comic & Storyboard",
+   "parent": "comic",
+   "scene": null,
+   "count": 64,
+   "useWhen": "要多格叙事、漫画页或分镜板时用它。",
+   "useWhen_en": "Multi-panel storytelling, comic pages, storyboards.",
+   "guidance": [
+    "定网格数与阅读顺序（2x2、九宫格、从上到下）。",
+    "每格写清画面内容与镜头（特写／中景／俯视）。",
+    "统一角色设定（发型、服装、标志物）防跨格变脸。",
+    "对白与拟声词内容给出并限制字数。"
+   ],
+   "pitfalls": [
+    "格与格之间角色长相漂移。",
+    "不分镜描述，模型把九格画成同一张图。"
+   ],
+   "exampleCases": [
+    "d0715_0014",
+    "d0322_0006",
+    "d0711_0009",
+    "d0623_0040",
+    "2026H1_0896",
+    "d0607_0006"
+   ],
+   "tag_style": {
+    "动漫插画": 43,
+    "写实": 28,
+    "电影感": 22,
+    "清新治愈": 18
+   }
+  },
+  {
+   "id": "photo_product",
+   "name": "摄影·产品",
+   "name_en": "Product Shots",
+   "parent": "photo_product",
+   "scene": null,
+   "count": 62,
+   "useWhen": "单个产品／包装／美妆瓶是画面主角时用它。",
+   "useWhen_en": "A single product or package as the hero.",
+   "guidance": [
+    "材质与工艺写具体（磨砂玻璃、烫金压纹、电镀）。",
+    "布光方式定死（柔光箱、硬光边缘光、渐变背景）。",
+    "标贴文字内容给出，并要求清晰可读。",
+    "背景纯净或极简场景，别堆道具。"
+   ],
+   "pitfalls": [
+    "商标与小字极易乱码，需限制文字量。",
+    "反射映出不合理内容。"
+   ],
+   "exampleCases": [
+    "d0622_0004",
+    "d0527_0007",
+    "d0423_0004",
+    "2026H1_0699",
+    "d0414_0048",
+    "2026H1_0240"
+   ],
+   "tag_style": {
+    "高级质感": 39,
+    "写实": 38,
+    "3D立体": 17,
+    "极简": 15
+   }
+  },
+  {
+   "id": "charcard",
+   "name": "角色设定",
+   "name_en": "Character Design Sheet",
+   "parent": "charcard",
+   "scene": null,
+   "count": 47,
+   "useWhen": "要角色三视图、设定卡、档案页时用它。",
+   "useWhen_en": "Turnarounds, reference sheets, character profile cards.",
+   "guidance": [
+    "明确视图清单（正／侧／背／表情特写／道具分解）。",
+    "统一角色硬特征：发型、瞳色、服装、标志物。",
+    "要求等比例、无透视变形、纯色背景。",
+    "标注区文字给内容（身高、武器、配色编号）。"
+   ],
+   "pitfalls": [
+    "各视图之间服装发型漂移。",
+    "要了\"艺术海报感\"就丢了设定图的严谨。"
+   ],
+   "exampleCases": [
+    "d0831_0019",
+    "d0830_0080",
+    "d0831_0084",
+    "d0830_0012",
+    "d0721_0024",
+    "d0628_0030"
+   ],
+   "tag_style": {
+    "动漫插画": 25,
+    "电影感": 17,
+    "写实": 13,
+    "清新治愈": 10
+   }
+  },
+  {
+   "id": "photo_food",
+   "name": "摄影·美食",
+   "name_en": "Food",
+   "parent": "photo_food",
+   "scene": null,
+   "count": 44,
+   "useWhen": "菜、饮品、甜点等食物是主体时用它。",
+   "useWhen_en": "Dishes and drinks as the hero.",
+   "guidance": [
+    "点明菜品、熟度、配料与摆盘层数。",
+    "定容器材质与颜色（白瓷、粗陶、玻璃）。",
+    "给\"新鲜证据\"：热气、水珠、切面、流淌。",
+    "角度选 45 度或正俯拍，并交代桌面材质。"
+   ],
+   "pitfalls": [
+    "分量与容器比例失调。",
+    "打光太平导致塑料质感。"
+   ],
+   "exampleCases": [
+    "d0525_0002",
+    "d0817_0004",
+    "2026H1_0921",
+    "d0715_0015",
+    "d0617_0007",
+    "d0824_0019"
+   ],
+   "tag_style": {
+    "写实": 26,
+    "清新治愈": 21,
+    "动漫插画": 14,
+    "3D立体": 13
+   }
+  },
+  {
+   "id": "ecom",
+   "name": "电商与品牌物料",
+   "name_en": "E-commerce & Brand Assets",
+   "parent": "ecom",
+   "scene": null,
+   "count": 41,
+   "useWhen": "要主图、详情页、卖点图这类电商视觉，或品牌 Logo／徽章／VI 套件这类商业物料时用它。",
+   "useWhen_en": "Marketplace images and detail pages, or brand logo / VI asset sheets.",
+   "guidance": [
+    "定模块顺序（主图→卖点→参数→场景）。",
+    "每模块给标题与一句卖点文案。",
+    "产品角度与背景纯度要求明确。",
+    "价格／参数标签内容写死，避免乱码。",
+    "品牌物料类（Logo／徽章／VI 板）给主副标、色板、字体与应用场景四组。"
+   ],
+   "pitfalls": [
+    "信息层级混乱，卖点被淹没。",
+    "参数文字过多导致错字。",
+    "电商详情与品牌规范混在一张图时，先声明交付物是哪一种。"
+   ],
+   "exampleCases": [
+    "d0809_0038",
+    "d0615_0029",
+    "d0402_0025",
+    "2026H1_0577",
+    "d0424_0012",
+    "d0424_0017"
+   ],
+   "tag_style": {
+    "高级质感": 14,
+    "清新治愈": 14,
+    "写实": 12,
+    "极简": 7
+   }
+  },
+  {
+   "id": "dbl_expo",
+   "name": "双重曝光",
+   "name_en": "Double Exposure",
+   "parent": "dbl_expo",
+   "scene": null,
+   "count": 22,
+   "useWhen": "要剪影里叠进风景／城市的艺术合成海报时用它。",
+   "useWhen_en": "Silhouette blended with landscape or cityscape.",
+   "guidance": [
+    "明确谁是轮廓（外剪影）谁是内容（内部景观）。",
+    "规定融合边界：只在躯干／头部内可见。",
+    "统一色调（多为单色 + 一色点缀）。",
+    "保留可识别的面部或姿态轮廓。"
+   ],
+   "pitfalls": [
+    "两张图平均用力，看不出叠合关系。",
+    "主体轮廓被填满导致失去剪影。"
+   ],
+   "exampleCases": [
+    "d0620_0020",
+    "2026H1_1044",
+    "2026H1_0833",
+    "k0508_0048",
+    "d0429_0036",
+    "d0629_0009"
+   ],
+   "tag_style": {
+    "电影感": 14,
+    "写实": 10,
+    "超现实数字": 8,
+    "高级质感": 7
+   }
+  },
+  {
+   "id": "screenshot",
+   "name": "社媒截图",
+   "name_en": "Social Media Screenshot",
+   "parent": "screenshot",
+   "scene": null,
+   "count": 8,
+   "useWhen": "要仿真的小红书／朋友圈／微博／聊天记录截图时用它。",
+   "useWhen_en": "Fake-but-real social feeds, chats and profile screenshots.",
+   "guidance": [
+    "锁定平台、机型与比例（iPhone 竖屏 9:16）。",
+    "逐区写 chrome：状态栏时间、头像昵称、正文、点赞栏。",
+    "所有可见文字给出具体内容和条数。",
+    "要求字体与间距符合该平台真实排版。"
+   ],
+   "pitfalls": [
+    "平台元素混用（微信界面带小红书配色）。",
+    "中文小字乱码，需减少文字密度。"
+   ],
+   "exampleCases": [
+    "2026H1_0165",
+    "2026H1_0147",
+    "2026H1_0144",
+    "2026H1_0073",
+    "2026H1_0431",
+    "2026H1_0081"
+   ],
+   "tag_style": {
+    "古风国风": 1
+   }
+  },
+  {
+   "id": "wallpaper",
+   "name": "壁纸头像",
+   "name_en": "Wallpaper & Avatar",
+   "parent": "wallpaper",
+   "scene": null,
+   "count": 4,
+   "useWhen": "要手机壁纸、锁屏或头像这类以装饰性为主的图时用它。",
+   "useWhen_en": "Decorative wallpapers, lock screens and avatars.",
+   "guidance": [
+    "定比例与安全区（避开刘海与图标区）。",
+    "主体偏置，中央留空给图标。",
+    "色彩控制在 2–3 色，避免与桌面图标冲突。",
+    "纹理与渐变方向写清。"
+   ],
+   "pitfalls": [
+    "主体放正中，被图标盖住。",
+    "细节过密显脏。"
+   ],
+   "exampleCases": [
+    "2026H1_0922",
+    "2026H1_1159",
+    "d0414_0014",
+    "d0322_0056"
+   ],
+   "tag_style": {
+    "写实": 2,
+    "电影感": 2,
+    "动漫插画": 2,
+    "时尚商业": 1
+   }
+  },
+  {
+   "id": "ui",
+   "name": "UI 界面",
+   "name_en": "UI Mockup",
+   "parent": "ui",
+   "scene": null,
+   "count": 3,
+   "useWhen": "要 App／网页／仪表盘界面示意图时用它。",
+   "useWhen_en": "App, web or dashboard interface mockups.",
+   "guidance": [
+    "锁平台与页面类型（移动端首页／后台仪表盘）。",
+    "列组件清单与排列顺序。",
+    "规定栅格、圆角、色板与字号层级。",
+    "示例文案给具体内容与条数。"
+   ],
+   "pitfalls": [
+    "界面文字必糊，需限制可读文字量。",
+    "组件堆叠无层级。"
+   ],
+   "exampleCases": [
+    "d0527_0006",
+    "2026H1_0016",
+    "2026H1_0227"
+   ],
+   "tag_style": {
+    "电影感": 2,
+    "极简": 2,
+    "高级质感": 2,
+    "动漫插画": 1
+   }
+  },
+  {
+   "id": "document",
+   "name": "文档排版",
+   "name_en": "Document Layout",
+   "parent": "document",
+   "scene": null,
+   "count": 2,
+   "useWhen": "要报纸、杂志页、简历、书页这类版面设计时用它。",
+   "useWhen_en": "Newspaper, magazine, resume or book page layouts.",
+   "guidance": [
+    "定版面结构（几栏、报头位置、图片占位）。",
+    "标题与正文层级字号关系写清。",
+    "给可辨识的小语种文字样例并限制密度。",
+    "纸张材质与折痕等真实感细节。"
+   ],
+   "pitfalls": [
+    "小字必乱码，要显式允许模糊处理。",
+    "版式与内容主题不匹配。"
+   ],
+   "exampleCases": [
+    "2026H1_1360",
+    "2026H1_0031"
+   ],
+   "tag_style": {
+    "写实": 2,
+    "复古胶片": 2,
+    "电影感": 1
+   }
+  }
+ ]
+}

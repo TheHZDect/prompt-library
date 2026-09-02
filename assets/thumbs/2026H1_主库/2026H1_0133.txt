@@ -1,0 +1,13 @@
+﻿[IMG: image144.jpeg]
+超写实时尚广告海报，主角是一位留着卷发、带有淡淡胡茬、戴着染色矩形墨镜的年轻男模，以自信放松的姿态摆拍。他穿着一件带有大兜帽的宽松光面紫色羽绒服，呈现出高级时尚街头穿搭美学。
+Branding elements: 在羽绒服上和画面构图中放置低调的 The North Face 和 Nike 联名标志。在羽绒服上添加小图形贴片（笑脸图标、抽象符号），以增添现代感和俏皮边缘。
+Composition: 中等特写，略微倾斜的姿势，模特以平静、具有主导感的表情直视镜头。羽绒服以夸张的体积感和纹理占据了画面的大部分。
+Background: 深紫色渐变墙壁，模特身后有大型涂鸦风格的白色笔触字体排版，略微模糊以营造景深。
+Lighting: 电影级、高对比度灯光，带有冷紫色调和打在羽绒服一侧的暖橙色轮廓光，营造出光面反光质感。HDR，锐利对焦，高级杂志大片质感。
+Typography layout:
+* Top left: 品牌联名标志
+* Left side block: 产品描述文字
+* Right side: 极简标语 “I have to wear it to bear it”
+* Bottom: “Winter Collection” 标签
+Style: 奢侈街头服饰广告，Nike级别广告，杂志摄影，超精细细节，8k分辨率，浅景深，柔和颗粒感，现代图形叠加，干净但大胆的排版。
+Aspect ratio: 3:4

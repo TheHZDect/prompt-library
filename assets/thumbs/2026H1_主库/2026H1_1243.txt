@@ -1,0 +1,71 @@
+﻿[IMG: image1639.jpeg]
+{
+"request_configuration": {
+"workflow": "image_to_image_fusion",
+"priority": "identity_preservation"
+},
+"source_references": {
+"primary_subject": {
+"id": "image_1",
+"target_element": "facial_identity",
+"subject_name": "Ana de Armas",
+"constraints": "zero_morphing_policy"
+},
+"attire_reference": {
+"id": "image_2",
+"target_element": "full_outfit",
+"transfer_attributes": [
+"fabric_texture",
+"color_palette",
+"layering"
+]
+}
+},
+"generation_parameters": {
+"subject_specs": {
+"identity": {
+"face": "{argument name=\"subject name\" default=\"Ana de Armas\"} (参考图片 1)",
+"features": "locked",
+"skin_texture": "超逼真，毛孔细节清晰，自然瑕疵"
+},
+"anatomy": {
+"pose": "动态四分之三侧身，手扶臀部",
+"body_type": "与 Ana de Armas 一致"
+},
+"styling": {
+"outfit": "从图片 2 克隆",
+"hair": "蓬松，自然波浪，捕捉背光"
+}
+},
+"environment_specs": {
+"setting": {
+"location": "高档户外露台",
+"background_depth": "深度模糊",
+"elements": [
+"柔和的建筑线条",
+"黄金时段的温暖",
+"充满活力的绿植"
+]
+},
+"lighting": {
+"mode": "鲜艳高调",
+"primary_source": "明亮的自然阳光",
+"secondary_source": "柔和的轮廓光以将主体与背景分离",
+"hdr_profile": "超高动态范围"
+}
+},
+"camera_specs": {
+"optics": "85mm 定焦镜头",
+"aperture": "f/1.8",
+"focus": "眼睛锐利对焦",
+"quality_level": "4K UHD"
+}
+},
+"negative_prompt_constraints": [
+"面部扭曲",
+"特征改变",
+"低分辨率",
+"暗淡光线",
+"平面纹理"
+]
+}

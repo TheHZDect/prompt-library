@@ -1,0 +1,2 @@
+﻿[IMG: image287.jpeg]
+2x2网格，对4种著名的亚洲美食执行此操作。scene: "AR烹饪解构" target_variable: "$DISH_NAME" environment: "干净的白底工作室，柔和的顶部柔光箱" physical_layer:   base: "有纹理的深色石板 + 干净的白盘子"   food: "语义推断：分离$ DISH_NAME的主要食材"   actor: "1/12比例的塑料厨师手办正在使用工具摆姿势"   prop: "背景菜单框展示完成的$ DISH_NAME" digital_layer:   ui_type: "磨砂玻璃空间UI卡片"   ui_content: "语义推断：$ DISH_NAME的风味雷达图"   fx: "漂浮的扁平图形蒸汽和香草"

@@ -1,0 +1,75 @@
+﻿[IMG: image1641.jpeg]
+{
+"content_goal": "具有高食欲吸引力的爆款美食视觉",
+"image_type": "超逼真的美食摄影",
+"visual_style": {
+"aesthetic": "电影级美食专题，高端街头美食风格",
+"vibe": "热气腾腾、香气四溢、令人无法抗拒",
+"realism": "高端商业美食写实主义"
+},
+"composition": {
+"framing": "特写或中特写",
+"camera_angle": "45 度或略微俯视前方角度",
+"subject_position": "居中摆放的主角碗或夹起的面条",
+"perspective": "景深丰富，前景突出"
+},
+"subject": {
+"description": "新鲜烹制、口感最佳的面条",
+"presentation": "{argument name=\"utensil\" default=\"筷子\"} 或叉子在空中夹起面条",
+"details": "长而有光泽的面条，可见酱汁附着",
+"ingredients": "蔬菜、蛋白质、香草、芝麻"
+},
+"texture_details": {
+"noodles": "丝滑、有弹性、酱汁附着",
+"sauce": "浓郁、有光泽、均匀包裹",
+"steam": "可见上升的蒸汽，展现新鲜度",
+"garnish": "葱花、辣椒片、芝麻"
+},
+"styling": {
+"bowl": "陶瓷或质朴的碗",
+"props": "筷子、亚麻餐巾、精致餐具",
+"messiness": "有控制的、诱人的凌乱感"
+},
+"lighting": {
+"type": "暖色调定向美食照明",
+"quality": "柔和而富有对比度",
+"direction": "侧光或顶侧光",
+"highlight_focus": "面条的光泽和蒸汽",
+"shadow_style": "柔和的阴影营造景深"
+},
+"color_palette": {
+"primary": [
+"金棕色",
+"酱油色调",
+"暖琥珀色"
+],
+"accent": [
+"辣椒红",
+"香草绿"
+],
+"mood": "舒适、美味、放纵"
+},
+"environment": {
+"location": "街头小吃摊、现代厨房或摄影棚布景",
+"background": "深色或柔和模糊的背景",
+"atmosphere": "温暖、舒适、美味"
+},
+"camera_details": {
+"camera_type": "专业单反或无反模拟",
+"lens": "85mm 或微距美食镜头",
+"focus": "对夹起的面条对焦锐利",
+"depth_of_field": "背景虚化浅景深",
+"resolution": "广告级清晰度"
+},
+"quality_control": {
+"food_realism": "超真实的质感，无塑料感",
+"steam_accuracy": "自然的蒸汽物理效果",
+"ai_artifacts": "无 AI 伪影",
+"professional_finish": "商业美食摄影品质"
+},
+"overall_mood": "舒适、浓郁、令人垂涎欲滴",
+"intended_use": {
+"primary": "X 上的爆款美食帖子",
+"secondary": "餐厅品牌推广、美食专题、广告"
+}
+}

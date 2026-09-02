@@ -1,0 +1,71 @@
+﻿[IMG: image1182.jpeg]
+{
+"subject": "[SUBJECT]",
+"description": "超写实编辑时尚海报，主体近景肖像部分隐藏在超大紧缩排版之中。面部由揉皱的金属银色织物包围，像兜帽一样包裹在头部，营造出戏剧性的纹理和对比。巨大的黑色无衬线字母主导构图，通过精确的负空间对齐遮蔽并揭示面部的不同部分。主体拥有深色头发、迷人的眼神、自然的皮肤纹理、细微的雀斑和柔软的哑光嘴唇。具有奢侈品牌设计的高端时尚杂志美学。",
+"style": {
+"genre": "编辑时尚摄影",
+"mood": "极简、精致、奢华、当代",
+"visual_style": "Vogue 杂志封面、奢侈品牌宣传活动、现代排版海报"
+},
+"camera": {
+"shot_type": "极端特写肖像",
+"angle": "正面直拍",
+"lens": "85mm",
+"aperture": "f/4",
+"focus": "锐利聚焦于眼睛、皮肤纹理和嘴唇"
+},
+"lighting": {
+"type": "柔和影棚光",
+"direction": "正面漫射光",
+"contrast": "中高",
+"highlights": "金属织物上的受控反射",
+"shadows": "柔和且具有电影感"
+},
+"composition": {
+"layout": "居中肖像",
+"typography_overlay": {
+"text": "DESIRE",
+"font": "超紧缩粗体无衬线体",
+"color": "#111111",
+"placement": "大型堆叠字母覆盖整个画面",
+"effect": "主体通过字母间的负空间可见"
+},
+"secondary_text": "垂直边缘排版和条形码元素",
+"crop": "面部约占画面的 80%"
+},
+"materials": {
+"hood": "揉皱的金属银箔织物",
+"texture": "高细节皱纹和反射褶皱"
+},
+"color_palette": {
+"primary": [
+"#111111",
+"#D8D5D0",
+"#B9B5B0"
+],
+"accent": [
+"#8A6D5B"
+],
+"saturation": "静谧"
+},
+"quality": {
+"resolution": "8K",
+"detail_level": "极端",
+"skin_texture": "自然写实",
+"post_processing": "高端时尚修图，保留真实纹理"
+},
+"aspect_ratio": "4:5",
+"negative_prompt": [
+"卡通",
+"动漫",
+"低分辨率",
+"过饱和色彩",
+"模糊的眼睛",
+"扭曲的排版",
+"多余的面部特征",
+"塑料皮肤",
+"水印",
+"标志伪影",
+"低质量光照"
+]
+}

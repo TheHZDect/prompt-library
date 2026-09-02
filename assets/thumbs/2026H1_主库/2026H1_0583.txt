@@ -1,0 +1,33 @@
+﻿[IMG: image690.jpeg]
+2x2 网格，1:1 比例，为 4 辆著名的经典名车制作：
+class Product_Poster_DNA:
+def __init__(self):
+self.subject = "[产品]"
+self.parents = {
+"composition_parent": "超高级爆炸视图产品广告",
+"material_parent": "豪华腕表宏观摄影",
+"graphic_parent": "包豪斯技术海报",
+"atmosphere_parent": "极简主义日本包装设计"
+}
+self.mutations = {
+"semantic_mutation": "产品包含一个展示其起源、用途和文化内涵的微缩世界",
+"information_mutation": "材质样本、微型图标、编号标注、隐形机械图表",
+"medium_mutation": "带有柔和纸张纹理的博物馆目录印刷品",
+"scale_mutation": "宏观物体视角，带有微观内部架构"
+}
+self.style_mix = [0.35, 0.25, 0.20, 0.10, 0.10]
+def generate_subject(self):
+subject = """
+[产品] 作为高级主角物体漂浮，部分分解为组件。
+展示材质、内部机制、制造痕迹、表面光洁度、
+标志性特征，以及产品内部展示其起源和用途的微缩世界。
+如果缺少产品细节，则推断合理的高级材质、
+构造逻辑和视觉独特的组件。
+"""
+return render(
+subject,
+format="垂直豪华产品海报",
+title="[产品名称]",
+subtitle="[型号 / 标语]",
+constraints="高级、精确、极简、无杂乱、无水印"
+)
