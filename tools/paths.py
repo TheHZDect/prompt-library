@@ -32,7 +32,7 @@ SKILL = os.path.join(CACHE, 'skill')                          # 技能包（工�
 
 TOOLS = os.path.join(HOME, '工具')                             # 代码（扁平）
 
-REPO = os.path.join(HOME, 'prompt-library-repo')              # 待推送的私库（含 .git）
+REPO = os.path.join(HOME, 'prompt-library-repo')              # 待推送的仓库（含 .git）
 
 INBOX = os.path.join(HOME, '入库区')                           # 待入库 docx 放这里（只扫顶层 .docx）
 ARCHIVE = os.path.join(INBOX, '已入库')                        # 已入库原件归档（防重摄；qc full 档凭据）

@@ -1,6 +1,25 @@
 # prompt-library
 
-11,966 条真实文生图提示词检索库。一句口语描述 → 取回可直接改用的原文骨架与预览图。零服务、零联网，本地跑。
+11,966 条真实文生图提示词检索库。一句口语描述 → 取回可直接改用的原文骨架与预览图。
+
+**推荐模型**：GPT Image 2、商汤 SenseNova U1 Pro。
+
+其中 SenseNova U1 Pro 是国产里效果靠前的一个，出图表现和 GPT Image 已经差得不远。想试的话，直接打开**商汤小浣熊**就能免费跑，不用另外配环境。
+
+## 展示
+
+以下效果图由商汤 SenseNova U1 Pro 直接使用库内原文生成（未改写提示词）。
+
+<table>
+<tr>
+<td width="50%"><img src="assets/showcase/d0428_0014_1.jpg" alt="新中式极简春字海报"><br><sub><code>d0428_0014</code> · photo_misc</sub></td>
+<td width="50%"><img src="assets/showcase/d0428_0014_2.jpg" alt="云上中式古建微缩岛"><br><sub><code>d0428_0014</code> · photo_misc</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/showcase/d0707_0075.jpg" alt="水墨国风写意人像"><br><sub><code>d0707_0075</code> · portrait_guofeng</sub></td>
+<td width="50%"><img src="assets/showcase/d0610_0060.jpg" alt="日系清新写实人像"><br><sub><code>d0610_0060</code> · portrait_healing</sub></td>
+</tr>
+</table>
 
 ## 30 秒上手
 
@@ -58,6 +77,10 @@ python -c "import sqlite3;print(sqlite3.connect('.cache/prompts.db').execute('SE
 3. 一次挑 2-3 条相近的对比用，别只信第一条。
 
 例：原文是「冷感东亚女生 + 水墨圆月背景 + 黑白撞色套装」，你要赛博雨夜——保留其"色彩基调→画面风格→核心元素→构图"的分层写法，逐段替换内容词。
+
+## 提示词来源
+
+库内提示词来自 **元虎大呲花** 的收集整理，非本人原创，在此注明。
 
 ## 库里有什么
 

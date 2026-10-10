@@ -11,7 +11,7 @@ LIB = P.CACHE
 DB = os.path.join(LIB, 'prompts.db')
 FAM_JSON = os.path.join(LIB, 'library.json')
 
-# 私库模式仓库根 R 的解析顺序：脚本自定位（本脚本在 <R>/tools/ 下，父目录含 data/ 与
+# 仓库模式仓库根 R 的解析顺序：脚本自定位（本脚本在 <R>/tools/ 下，父目录含 data/ 与
 # agents/ 即认定仓库根——仓库版优先自身位置，保证 clone 后零配置可用）→ PROMPT_LIB_HOME
 # 环境变量（显式改道）→ 脚本旁/上级 lib_home.txt（install.mjs 写入）→ 本地工作区路径。
 # 技能被复制到任何位置后，只要按 SKILL.md 用 <R>/tools/ 绝对路径调用，不依赖 cwd、不依赖环境变量。
@@ -34,7 +34,7 @@ if _HOME:
 THUMB_BASE = os.path.join(_HOME, 'assets', 'thumbs') if _HOME else P.THUMB
 
 if not os.path.exists(FAM_JSON):
-    sys.exit('找不到家族定义 %s：私库模式请在仓库根跑 python tools/rebuild_db.py（脚本自定位仓库根，无需环境变量）' % FAM_JSON)
+    sys.exit('找不到家族定义 %s：请在仓库根跑 python tools/rebuild_db.py（脚本自定位仓库根，无需环境变量）' % FAM_JSON)
 
 FAMS = {f['id']: f for f in json.load(open(FAM_JSON, encoding='utf-8'))['families']}
 
@@ -360,7 +360,7 @@ if __name__ == '__main__':
             print(f'[{r[11]:7.2f}] {r[0]}  {r[2]}/{r[3]}  {r[4]} 段{r[5]}-{r[6]}  族={r[1]}  len={r[9]}')
             print(f'    图={r[7]}')
             if th.get(r[0]):
-                # 库内 thumbs 存的是相对缩略图根的路径；工作区根=库\缩略图，私库根=assets\thumbs
+                # 库内 thumbs 存的是相对缩略图根的路径；工作区根=库\缩略图，仓库根=assets\thumbs
                 tp = th[r[0]]
                 print('    缩略图=%s' % (tp if os.path.isabs(tp) else os.path.join(THUMB_BASE, tp.replace('/', os.sep))))
             print(f'    {r[12]!r}'[:200])

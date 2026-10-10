@@ -14,7 +14,7 @@
 5. **自撰评测集有系统性盲区**：天然挑标准 3 字术语，绕开 2 字词、单字主体词、整句、跨类组合词。评测查询必须显式含这四类。
 6. **入库与重建规程只在 `维护手册.md`。** 本文只解释为什么。
 7. **改 `query_lib2.py` 后跑三组对拍**：`phase4_eval`（不退化）+ `score_gold`（守卫）+ §9 的 35 题（有结果率与相关性）。
-8. **版本保护只在 `prompt-library-repo`**（`origin/main`，私有，唯一进远端的东西）。工作区根不是 git 仓库；`缓存\thumbs\.git` 是 0 commit 空壳，不提供保护。不可再生层随 `phase9_repo` 同步进仓库得异地保护。
+8. **版本保护只在 `prompt-library-repo`**（`origin/main`，唯一进远端的东西）。工作区根不是 git 仓库；`缓存\thumbs\.git` 是 0 commit 空壳，不提供保护。不可再生层随 `phase9_repo` 同步进仓库得异地保护。
 
 ## 1. 这是什么
 
@@ -23,7 +23,7 @@ GPT-Image 提示词检索库：用户给一句口语化描述 → 路由到提�
 - 三条数据线：`main`（主库）/ `daily`（日报）/ `kook`。
 - **正文是唯一真相**，图片只供人工核验；检索靠正文，预览靠缩略图。
 - 家族只按 产物 / 主体 / 人像风格 切分；场景、光线、风格标签是 facet，不参与分族。
-- 对外交付物是一个 git 私库（技能包 + 正文 + 缩略图 + 工具），clone 后一条命令重建检索库。
+- 对外交付物是一个 git 仓库（技能包 + 正文 + 缩略图 + 工具），clone 后一条命令重建检索库。
 
 ## 2. 目录（五分架构）
 
@@ -53,7 +53,7 @@ D:\AI\promptlib\
 │   ├── paths.py               全工程绝对路径的唯一来源
 │   └── *.py *.txt             日常链脚本与解析器配置（clean_kw / boilerplate_daily / net_strip_chars …）
 ├── 入库区\                    待入库 docx 放顶层（唯一摄取入口）+ 已入库\（原件归档，防重摄）
-└── prompt-library-repo\       GitHub 私库本地副本（唯一 push 面，与远端同步）
+└── prompt-library-repo\       GitHub 仓库本地副本（唯一 push 面，与远端同步）
 ```
 
 规则唯一来源：`工具\famlib.py`（分类 + `SEARCH_SYNONYMS` + `SUBJECT_MONOGRAMS`）、`工具\lib_defs.py`（族与 facet 文案）。
@@ -207,7 +207,7 @@ git -C prompt-library-repo status -sb     # 与 origin/main 是否一致
 
 ## 12. 仓库（prompt-library-repo）
 
-- 纯自用云端私库，不开源；kook 线授权顾虑不成立（公开分享、仅本地复用），三线全纳入。
+- kook 线授权顾虑不成立（公开分享、仅本地复用），三线全纳入。
 - 结构：`agents/skills/prompt-library/`（SKILL.md + references）+ `data/`（170 批 entries.tsv + 清单 + 金标 + 台账 + manifest）+ `assets/thumbs/` + `tools/`（同步器快照，勿直接改）+ `docs/PROJECT_STATE.md`（本文件的同步副本）。
 - **clone 自洽已验**：`tools/rebuild_db.py --verify` 重建全库 + 5 条自检 + 缩略图引用零落空；`source_docx` 取自台账。不需要工作区与源 docx。
 - 不进库：原图（`.gitignore` 的 `**/media/`）、`prompts.db`、`cases.json`、`df_terms.db`、`.cache/`、`维护手册` / `建库方法说明`。

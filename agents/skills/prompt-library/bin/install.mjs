@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 把私库技能包安装到本机 agent 技能目录（对齐 awesome-gpt-image-2 的 install-style-skill.mjs）。
+// 把技能包安装到本机 agent 技能目录（对齐 awesome-gpt-image-2 的 install-style-skill.mjs）。
 // 用法：node agents/skills/prompt-library/bin/install.mjs [all|codex|claude|agents]
 import { cpSync, existsSync, rmSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';

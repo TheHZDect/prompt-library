@@ -27,3 +27,4 @@ $RECYCLE.BIN/
 *.tmp
 _probe/
 *.log
+*.artifact.json

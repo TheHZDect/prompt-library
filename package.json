@@ -2,12 +2,12 @@
   "name": "prompt-library",
   "version": "0.1.0",
   "private": true,
-  "description": "个人云端私库：11634 条真实 GPT-Image 提示词的检索技能包，按 27 个家族路由，附 12404 张缩略图。仅供自用与复用，不开源发布。",
+  "description": "GPT Prompt Library：11966 条真实文生图提示词的检索技能包，按 27 个家族路由，附 12738 张缩略图。推荐模型：GPT Image 2、商汤 SenseNova U1 Pro（经商汤小浣熊调用）。",
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "TODO-填入你的私有仓库地址.git",
+    "url": "https://github.com/TheHZDect/prompt-library.git",
     "directory": "agents/skills/prompt-library"
   },
   "keywords": [
@@ -15,6 +15,7 @@
     "claude-code",
     "codex",
     "gpt-image-2",
+    "sensenova-u1-pro",
     "prompt-library",
     "style-library",
     "sqlite-fts5"

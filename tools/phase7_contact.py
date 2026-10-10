@@ -13,7 +13,7 @@ import famlib as F
 LIB = P.CACHE
 OUT_DIR = os.path.join(LIB, 'contact')
 THUMB_ROOT = P.THUMB
-# 私库模式仓库根：脚本自定位（在 <R>/tools/ 下）→ PROMPT_LIB_HOME → 工作区版 lib_home.txt。
+# 仓库模式仓库根：脚本自定位（在 <R>/tools/ 下）→ PROMPT_LIB_HOME → 工作区版 lib_home.txt。
 # 与 query_lib2.py 同一顺序，保证 clone 后零配置可用。
 _HOME = ''
 _cand = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -27,7 +27,7 @@ else:
             if os.path.exists(_p):
                 _HOME = open(_p, encoding='utf-8').read().strip()
                 break
-if _HOME:                                   # 私库模式：读仓库 .cache，图在 assets/thumbs 下
+if _HOME:                                   # 仓库模式：读仓库 .cache，图在 assets/thumbs 下
     LIB = os.path.join(_HOME, '.cache')
     OUT_DIR = os.path.join(LIB, 'contact')
     THUMB_ROOT = os.path.join(_HOME, 'assets', 'thumbs')

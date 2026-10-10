@@ -154,7 +154,7 @@ def verify():
     importlib.reload(Q)
     ok = 0
     for q in VERIFY:
-        rows, _drop = Q.search_relaxed(q, k=3)
+        rows = Q.search_relaxed(q, k=3)[0]
         fams = [r[1] for r in rows[:2]]
         print('  %-24s terms=%-22s %s' % (q, '/'.join(Q._split_terms(q))[:22], ' | '.join(fams) or '无结果'))
         ok += bool(rows)
