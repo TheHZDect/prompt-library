@@ -5,12 +5,27 @@ description: 检索 11966 条真实文生图提示词库，按意图路由到家
 
 # 提示词库检索（prompt-library）
 
-零服务、零联网，查询只依赖 Python 标准库 sqlite3。数据库不入库，clone 后先重建：
+零服务、零联网，查询只依赖 Python 标准库 sqlite3。
+
+## 仓库获取
+
+引擎与数据不在技能目录内，在配套仓库：
+
 ```
-python tools/rebuild_db.py    # 产出 <R>/.cache/prompts.db，脚本自定位仓库根
+git clone https://github.com/TheHZDect/prompt-library.git
+cd prompt-library
+python tools/rebuild_db.py    # 从 data/ 重建 .cache/prompts.db（库文件不入库、不进 git）
 ```
 
-命令里的 `<R>` = 仓库根绝对路径：技能若被 install.mjs 复制到技能目录，读同技能目录 `bin/lib_home.txt`；未复制时 R = 本 SKILL.md 所在目录上溯三级。执行时把 <R> 展开成绝对路径，一切命令与 cwd 无关。
+## 仓库路径（`<R>`）如何确定
+
+技能内所有命令的 `<R>` = 仓库根绝对路径。`tools/query_lib2.py` 内置三级解析，依次尝试：
+
+1. **自定位**：脚本在 `<R>/tools/` 下，其上级目录同时含 `data/` 与 `agents/` → 认定仓库根，零配置可用
+2. **环境变量** `PROMPT_LIB_HOME=<仓库根>`（显式改道）
+3. **技能目录下 `bin/lib_home.txt`**：一行仓库根，安装时由 `install.mjs` 写入
+
+技能直接在仓库内使用走第 1 条；被装到别处则靠第 2、3 条。执行时把 `<R>` 展开成绝对路径，一切命令与 cwd 无关。
 
 - 检索入口：`<R>/tools/query_lib2.py`
 - 数据库：  `<R>/.cache/prompts.db`（11966 条，含 FTS5 全文索引）

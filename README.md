@@ -26,8 +26,10 @@
 ```bash
 git clone https://github.com/TheHZDect/prompt-library.git && cd prompt-library
 python tools/rebuild_db.py                 # 从 data/ 重建检索库（产出 .cache/，不进 git）
-node agents/skills/prompt-library/bin/install.mjs trae   # 装成 agent 技能（目标可换 codex|claude|agents|trae）
+node agents/skills/prompt-library/bin/install.mjs <你的平台全局技能目录>   # 可选：装成全局技能
 ```
+
+技能目录就在仓库内（`agents/skills/prompt-library/`），不装也能用。要装到平台全局目录时，把 `<你的平台全局技能目录>` 换成你所用平台约定的那个路径即可；安装脚本会把仓库根写进 `bin/lib_home.txt`，供技能运行时定位。
 
 装完后对你的 agent 说人话即可：
 
